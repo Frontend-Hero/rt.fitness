@@ -13,4 +13,4 @@ jobs:
       with:
         server: grh44.myukcloud.com
         username: k3-fDdePstOO0@rt.fitness
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTPPASSWORD }}
