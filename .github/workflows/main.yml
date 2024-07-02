@@ -14,3 +14,5 @@ jobs:
         server: grh44.myukcloud.com
         username: k3-fDdePstOO0@rt.fitness
         password: ${{ secrets.FTPPASSWORD }}
+        protocol: ftps
+        server-dir: public_html/wp-content/themes/rt-fitness/
