@@ -17,19 +17,15 @@ Version: 1.0
 ******************************************************************/
 
 :root {
-	--nal-primary: #ff3333;
-	--nal-secondary-dark: #2e2d2d;
-	--nal-accent-light: #ffede0;
-	--nal-accent-lighter: #fff8f8;
+	--rt-primary: #ff3333;
+	--rt-secondary-dark: #2e2d2d;
+	--rt-accent-light: #ffede0;
+	--nartl-accent-lighter: #fff8f8;
 	
-	--nal-grey-dark: #7c7c7c;
-	--nal-grey-light: #eaeaea;
-	--nal-grey-lighter: #fafafa;
-	--nal-white: #fff;
-}
-
-.trp-license-notice {
-    display: none !important
+	--rt-grey-dark: #7c7c7c;
+	--rt-grey-light: #eaeaea;
+	--rt-grey-lighter: #fafafa;
+	--rt-white: #fff;
 }
 
 
