@@ -6,20 +6,6 @@
             <div class="grid">
                 <div class="grid-span-9">
 
-                <div id="unit-feed">hi
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2160812257965794"
-                         crossorigin="anonymous"></script>
-                    <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-format="fluid"
-                         data-ad-layout-key="-gw-3+1f-3d+2z"
-                         data-ad-client="ca-pub-2160812257965794"
-                         data-ad-slot="4086617847"></ins>
-                    <script>
-                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-
                 <?php 
                 $home_args = array(
                     'posts_per_page' => 3,
