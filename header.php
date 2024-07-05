@@ -29,7 +29,7 @@
                 <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
                 </a>
-                <div id="nav-primary-wrapper">
+                <div id="nav-primary-wrapper" class="grid-span-9">
                 <?php 
                 $args = array
                 (
