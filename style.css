@@ -1430,8 +1430,7 @@ p.form-field label,
 						}
 					#nav-primary a {
 						display: block;
-						color: #4f4f4e;
-						background-color: #FAFAFA;
+						color: #fff;
 						padding: 1.5rem 2.8rem;
 						text-decoration: none;
 					}
