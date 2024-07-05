@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 	
-	<header id="primary-header">
+	<header id="primary-header">----
 		<div class="wrapper">
 			<div class="grid">
 				<h1 class="grid-span-6">
