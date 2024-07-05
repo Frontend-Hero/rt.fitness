@@ -677,10 +677,11 @@ textarea{
 	color: #fff;
 	background: var(--rt-color-primary);
 	display: inline-block;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 10px;
 	border: 0px none;
 	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
 	cursor: pointer;
     border-radius: 12px 0px 0px 12px;
     text-decoration: none;
