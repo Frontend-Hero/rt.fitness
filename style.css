@@ -1356,7 +1356,6 @@ p.form-field label,
 	border: 0px none;
 	font-size: 2.4rem;
 }
-	
 
 
 /*****************************************************************
@@ -1365,6 +1364,7 @@ p.form-field label,
 
 #header-full-width {
 	border: 5px solid blue;
+	min-height: 700px;
 }
 #primary-header {
 	background: var(--nal-white);
