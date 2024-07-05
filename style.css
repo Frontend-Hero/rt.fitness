@@ -12,14 +12,16 @@ Version: 1.0
 ******************************************************************/
 
 :root {
-	--rt-primary: #ff3333;
-	--rt-secondary-dark: #2e2d2d;
-	--rt-accent-light: #ffede0;
+	--rt-color-primary: #fd0002;
+	--rt-color-darker: #383838;
+	--rt-color-dark: #363636
+	
+	/* --rt-accent-light: #ffede0;
 	--rt-accent-lighter: #fff8f8;
 	
 	--rt-grey-dark: #7c7c7c;
 	--rt-grey-light: #eaeaea;
-	--rt-grey-lighter: #fafafa;
+	--rt-grey-lighter: #fafafa; */
 	--rt-white: #fff;
 }
 
