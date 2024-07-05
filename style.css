@@ -673,15 +673,14 @@ textarea{
 }
 
 /* Buttons */
-.btn,
-.wpcf7 input.wpcf7-submit {
+.btn {
 	color: #fff;
-	background: var(--nal-primary);
+	background: var(--rt-color-primary);
 	display: inline-block;
 	text-align: center;
 	margin-bottom: 10px;
 	border: 0px none;
-	font-family: 'Uniform', sans-serif;	
+	font-family: "futura-pt", sans-serif;
 	cursor: pointer;
     border-radius: 9999px;
     text-decoration: none;
@@ -1362,7 +1361,6 @@ p.form-field label,
 	min-height: 600px;
 }
 	#header-hero .content-area {
-		background: red;
 		width: 60%;
 		align-self: center;
 	}
