@@ -7,9 +7,6 @@ Author URI: https://www.madebytoast.com/
 Version: 1.0
 */
 
-* {
-	border: 1px solid red;
-}
 /*****************************************************************
 	Variables
 ******************************************************************/
@@ -18,7 +15,7 @@ Version: 1.0
 	--rt-primary: #ff3333;
 	--rt-secondary-dark: #2e2d2d;
 	--rt-accent-light: #ffede0;
-	--nartl-accent-lighter: #fff8f8;
+	--rt-accent-lighter: #fff8f8;
 	
 	--rt-grey-dark: #7c7c7c;
 	--rt-grey-light: #eaeaea;

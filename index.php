@@ -1,19 +1,11 @@
 <?php get_header(); ?>
 		
     <div id="main-area">
-        <div class="wrapper wrapper-with-thumb">
+        <div class="wrapper">
             
             <div class="grid">
                 <div class="grid-span-9">
-
-                <?php 
-                $home_args = array(
-                    'posts_per_page' => 3,
-                    'category_name' => 'tutorial',
-                );
-                $home_loop = new WP_Query($home_args);
-
-                    while($home_loop->have_posts()): $home_loop->the_post(); ?> 
+                <?php while(have_posts()): the_post(); ?> 
 
                     <div <?php post_class(); ?>>
 
@@ -38,7 +30,7 @@
                 <?php endwhile; ?> 
                 </div>
 
-                <?php get_sidebar(); ?>
+                <?php // get_sidebar(); ?>
 
             </div>
             <!-- / grid -->
@@ -49,5 +41,4 @@
     </div>
     <!-- / main area -->
 	
-    
 <?php get_footer(); ?>
