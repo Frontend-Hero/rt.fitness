@@ -84,7 +84,7 @@
 	function feh_scripts()  
 	{	
 		/* Styles */
-		// wp_enqueue_style( 'uniform', get_template_directory_uri() . '/fonts/fonts.css' );
+		wp_enqueue_style( 'adobe-futura', 'https://use.typekit.net/uqs2rox.css' );
 		wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' );
 		//wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap' );
         //wp_enqueue_style( 'hamburger', get_template_directory_uri() . '/css/hamburger.min.css' );

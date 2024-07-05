@@ -496,10 +496,9 @@ body.page-template-blocks .pattern-2-col-post > div > .wp-block-group > .wp-bloc
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2.2rem;
-	font-family: "Roboto", sans-serif;
-	font-weight: 600;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
 	font-style: normal;
-	/* text-rendering: optimizeLegibility; */
 }
 
 h1 { font-size: 4.2rem; line-height: 5.2rem; }
