@@ -31,8 +31,8 @@
                 </a>
                 <div id="nav-wrapper">
                     <?php 
-                    get_template_part('partials/nav', 'primary');
-                    get_template_part('partials/nav', 'contact'); ?>
+                    get_template_part('partials/nav', 'contact');
+                    get_template_part('partials/nav', 'primary'); ?>
                 </div>
                 
 				<!--
