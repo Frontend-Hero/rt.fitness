@@ -688,17 +688,19 @@ textarea{
     font-size: 2.6rem;
 	text-transform: uppercase;
 	position: relative;
+	z-index: 1;
 }
 .btn::after {
 	position: absolute;
 	content: "";
-	background: blue;
+	background: green
 	border-radius: 12px;
-	right: 25px;
+	right: -35px;
 	top: 0;
 	width: 45px;
 	height: 100%;
 	transform: skewX(345deg);
+	z-index: -1;
 }
 .btn:hover,
 .wp-block-button__link:hover {
