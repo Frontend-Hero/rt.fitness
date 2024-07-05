@@ -694,10 +694,11 @@ textarea{
 	content: "";
 	background: blue;
 	border-radius: 12px;
-	right: 0;
+	right: 25px;
 	top: 0;
 	width: 45px;
 	height: 100%;
+	transform: skewX(30);
 }
 .btn:hover,
 .wp-block-button__link:hover {
