@@ -52,8 +52,10 @@
 	</header>
 
     <div id="hero">
-        PERSONAL TRAINER 
-        NEWPORT, SHROPSHIRE
+        <div class="wrapper">
+            <h1>PERSONAL TRAINER 
+            NEWPORT, SHROPSHIRE</h1>
+        </div>
     </div>
 
     </div>
