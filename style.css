@@ -1376,8 +1376,11 @@ p.form-field label,
 }
 	#header-hero .content-area {
 		background: red;
+		width: 50%;
 	}
-
+	#header-hero img {
+		width: 40%;
+	}
 
 
 #primary-header {
