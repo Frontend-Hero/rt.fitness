@@ -1381,6 +1381,17 @@ p.form-field label,
 	border: 2px solid red;
 	grid-column: span 9;
 }
+
+/** 
+ * Contact nav 
+ */
+#contact-menu {
+	border: 2px solid blue;
+}
+	#contact-menu a {
+		color: var(--rt-color-white);
+	}
+
 #primary-header {
 	background: var(--nal-white);
 	padding: 35px 0px;
