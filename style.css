@@ -693,8 +693,8 @@ textarea{
 .btn::after {
 	position: absolute;
 	content: "";
-	background: green;
-	border-radius: 12px;
+	background: var(--rt-color-primary);
+	border-radius: 0 12px 12px 0;
 	right: -35px;
 	top: 0;
 	width: 85px;
