@@ -1362,8 +1362,8 @@ p.form-field label,
 	Header
 ******************************************************************/
 
-#header-full-width {
-	border: 5px solid blue;
+#header-hero {
+	background: #000;
 	min-height: 700px;
 }
 #primary-header {

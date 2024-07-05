@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 
-    <div id="header-full-width">
+    <div id="header-hero">
 	
 	<header id="primary-header">
 		<div class="wrapper">
@@ -50,6 +50,11 @@
 			</div>
 		</div>
 	</header>
+
+    <div id="hero">
+        PERSONAL TRAINER 
+        NEWPORT, SHROPSHIRE
+    </div>
 
     </div>
 	
