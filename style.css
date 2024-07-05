@@ -1372,6 +1372,8 @@ p.form-field label,
 		#header-hero .content-area p {
 			color: #a4a4a4;
 			font-size: 2.6rem;
+			line-height: 3.6rem;
+			padding-right: 125px;
 		}
 	#header-hero img.featured {
 		width: 34%;
