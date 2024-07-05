@@ -643,11 +643,6 @@ a,
 	Generic
 ******************************************************************/
 
-body:not(.page-template-blocks) #main-area {
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-}
-
 .alignleft { float: left; }
 	.entry .alignleft { padding: 0px 30px 20px 0px; }
 .alignright { float: right; }
@@ -661,13 +656,6 @@ body:not(.page-template-blocks) #main-area {
 em {
     font-style: italic;
 }
-/* 70% */
-.img-70 {
-	width: 80%;
-	margin: 42px auto 50px auto;
-}
-
-.more { display: none; }
 
 img {
 	max-width: 100%;
@@ -1413,10 +1401,9 @@ p.form-field label,
 	 * Primary nav
 	*/
 	#nav-primary-wrapper {
-		/* margin-bottom: 5rem; */
-		border-bottom: 5px solid var(--nal-primary);
         position: relative;
         z-index: 100;
+		border: 2px solid red;
 	}
 		#nav-primary {
 			display: flex;
