@@ -682,10 +682,10 @@ textarea{
 	border: 0px none;
 	font-family: "futura-pt", sans-serif;
 	cursor: pointer;
-    border-radius: 15px;
+    border-radius: 12px 0px 0px 12px;
     text-decoration: none;
     padding: calc(0.667em + 2px) calc(1.333em + 2px);
-    font-size: 1.125em;
+    font-size: 1.6rem;
 }
 .btn:hover,
 .wp-block-button__link:hover {
