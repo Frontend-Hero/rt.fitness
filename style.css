@@ -1406,6 +1406,7 @@ p.form-field label,
 }
 	#contact-menu ul {
 		display: flex;
+		justify-content: flex-end;
 	}
 	#contact-menu a {
 		color: var(--rt-color-white);
