@@ -26,7 +26,7 @@
 	<header id="primary-header">
 		<div class="wrapper">
 			<div class="grid">			
-                <a class="logo" href="<?php echo home_url(); ?>">
+                <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
                 </a>
                 <div id="nav-primary-wrapper">

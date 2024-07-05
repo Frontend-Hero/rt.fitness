@@ -1408,26 +1408,9 @@ p.form-field label,
         margin-top: 6px;
 	}
 
-	#primary-header h1 {
-		margin: 0;
-	}
-		#primary-header h1 a {
-			color: var(--nal-secondary-dark);
-			text-decoration: none;
-		}
 
 	/** 
-	* 
-	*/
-	#flex-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-
-	/** 
-	Primary nav
+	 * Primary nav
 	*/
 	#nav-primary-wrapper {
 		/* margin-bottom: 5rem; */
