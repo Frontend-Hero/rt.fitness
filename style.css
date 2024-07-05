@@ -9,9 +9,6 @@ Version: 1.0
 
 
 
-
-
-
 /*****************************************************************
 	Variables
 ******************************************************************/
@@ -148,8 +145,7 @@ ol.nal-list-border {
 
 
 	/** 
-	* 
-	nal-img-sin-costo
+	* nal-img-sin-costo
 	*/
 	.nal-img-sin-costo:before {
 		content: "Sin Costo";
@@ -714,7 +710,7 @@ textarea{
 	General
 ******************************************************************/
 
-html{
+html {
 	/* height: 100%; */
 	font-size: 62.5%;
 }
@@ -726,26 +722,6 @@ body {
 	font-size: 1.6rem;
 	color: var(--nal-secondary-dark);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1395,6 +1371,7 @@ p.form-field label,
 	width: 100%;
     position: relative;
 	z-index: 1;
+	border: 2px solid red;
 }
 	.hamburger {
         position: absolute;
