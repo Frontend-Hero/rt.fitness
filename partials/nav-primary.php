@@ -4,6 +4,6 @@ $args = array
     'menu' 			  => 4,
     'container' 	  => 'nav',
     'container_id'	  => 'nav-primary',
-    'container_class' => 'grid-span-9'
+    'container_class' => ''
 );
 wp_nav_menu( $args ); ?>

@@ -29,10 +29,11 @@
                 <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
                 </a>
-                <?php 
-                get_template_part('partials/nav', 'primary');
-                get_template_part('partials/nav', 'contact'); 
-                ?>
+                <div id="nav-wrapper">
+                    <?php 
+                    get_template_part('partials/nav', 'primary');
+                    get_template_part('partials/nav', 'contact'); ?>
+                </div>
                 
 				<!--
                 <div id="hamburger" class="hamburger hamburger--slider js-hamburger">
