@@ -28,9 +28,16 @@ Version: 1.0
 
 /*****************************************************************
 	Utility classes
-******************************************************************/
+*****************************************************************/
 
-.nal-text-colour-primary {
+.rt-flex {
+	border: 3px solid yellow;
+	display: flex;
+}
+.rt-flex-gap-50 {
+	gap: 50px;
+}
+/* .nal-text-colour-primary {
     color: var(--nal-primary) !important;
 }
 .nal-text-colour-white {
@@ -59,7 +66,6 @@ p.nal-arrow-border-red i {
 	align-items: center;
     justify-content: center;
 }
-
 
 .nal-flex {
     display: flex;
@@ -164,6 +170,7 @@ ol.nal-list-border {
         background: green !important;
         color: #fff;
     }
+	*/
 
 
 
@@ -171,6 +178,7 @@ ol.nal-list-border {
 	Menu: Social Media
 ******************************************************************/
 
+/* 
 ul#menu-social-media {
 }
     ul#menu-social-media li {
@@ -219,13 +227,13 @@ ul#menu-social-media {
                 left: 32px;
                 color: #d9d9d9;
             }
-
+*/
 
 
 /*****************************************************************
 	Block: Yoast TOC
 ******************************************************************/
-
+/* 
 .yoast-table-of-contents > ul {
 	border-left: 1px solid var(--nal-primary);
 	margin-bottom: 3.00001rem;
@@ -249,6 +257,7 @@ ul#menu-social-media {
 	.entry .yoast-table-of-contents ul ul {
 		margin: 16px 0 19px 0 !important;
 	}
+		*/
 
 
 /*****************************************************************
@@ -268,7 +277,7 @@ ul#menu-social-media {
 /*****************************************************************
 	Page: Contact
 ******************************************************************/
-
+/* 
 .contact-text {
 }
 
@@ -330,7 +339,7 @@ body.page-id-376 .entry > .wp-block-group:first-child {
 		background: url("images/icon-social-flickr-dark.svg") 0 0px / 90% no-repeat;
 		height: 30px !important;
 	}
-
+*/
 
 
 /*****************************************************************
@@ -340,7 +349,7 @@ body.page-id-376 .entry > .wp-block-group:first-child {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-gap: 40px;
+	grid-gap: 50px;
 }
 .grid-gap-15 {
     grid-gap: 15px;
@@ -359,7 +368,7 @@ body.page-id-376 .entry > .wp-block-group:first-child {
 
 .grid-3 {
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 25px;
+	grid-gap: 50px;
 }
  
 
@@ -483,12 +492,6 @@ body.page-template-blocks .pattern-2-col-post > div > .wp-block-group > .wp-bloc
 /*****************************************************************
 	Typography
 ******************************************************************/
-
-.style-guide-heading {
-	background: #E5E5E5;
-	padding: 15px;
-	margin-bottom: 30px;
-}
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -1361,13 +1364,22 @@ p.form-field label,
 
 
 /*****************************************************************
-	Header
+	Header + Hero
 ******************************************************************/
 
+/** 
+ * Hero 
+*/
 #header-hero {
 	background: #000;
-	min-height: 700px;
+	min-height: 600px;
 }
+	#header-hero .content-area {
+		background: red;
+	}
+
+
+
 #primary-header {
 	background: var(--nal-white);
 	padding: 35px 0px;

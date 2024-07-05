@@ -52,7 +52,7 @@
 	</header>
 
     <div id="hero">
-        <div class="wrapper">
+        <div class="wrapper rt-flex rt-flex-gap-50">
             <div class="content-area">
                 <h1>PERSONAL TRAINER 
                 NEWPORT, SHROPSHIRE</h1>
