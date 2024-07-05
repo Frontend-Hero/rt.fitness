@@ -26,7 +26,7 @@
 	<header id="primary-header">
 		<div class="wrapper">
 			<div class="grid">			
-                <a class="logo grid-span-4" href="<?php echo home_url(); ?>">
+                <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
                 </a>
 
@@ -36,7 +36,7 @@
                     'menu' 			  => 4,
                     'container' 	  => 'nav',
                     'container_id'	  => 'nav-primary',
-                    'container_class' => 'grid-span-8'
+                    'container_class' => 'grid-span-9'
                 );
                 wp_nav_menu( $args ); ?>
                 
