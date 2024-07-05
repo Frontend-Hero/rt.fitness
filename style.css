@@ -1448,6 +1448,7 @@ p.form-field label,
 					display: block;
 					margin-right: 0;
 					position: relative;
+					flex-grow: 1;
 				}
 					#nav-primary > ul > li.trp-language-switcher-container {
 						right: 15px;
