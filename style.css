@@ -1404,6 +1404,9 @@ p.form-field label,
 #contact-menu {
 	border: 2px solid blue;
 }
+	#contcat-menu ul {
+		display: flex;
+	}
 	#contact-menu a {
 		color: var(--rt-color-white);
 	}
