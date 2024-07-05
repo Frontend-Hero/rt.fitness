@@ -1440,7 +1440,7 @@ p.form-field label,
 
 					body.sfwd-courses-template-default #nav-primary li.menu-item-264 a {
                         background: var(--nal-primary);
-                        color: var(--nal-white);
+                        color: var(--rt-color-white);
                     }
                     #nav-primary a:hover {
                         background: var(--nal-primary);
