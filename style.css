@@ -14,7 +14,7 @@ Version: 1.0
 :root {
 	--rt-color-primary: #fd0002;
 	--rt-color-darker: #383838;
-	--rt-color-dark: #363636
+	--rt-color-dark: #363636;
 	
 	/* --rt-accent-light: #ffede0;
 	--rt-accent-lighter: #fff8f8;
@@ -22,7 +22,7 @@ Version: 1.0
 	--rt-grey-dark: #7c7c7c;
 	--rt-grey-light: #eaeaea;
 	--rt-grey-lighter: #fafafa; */
-	--rt-white: #fff;
+	--rt-color-white: #fff;
 }
 
 
@@ -1377,7 +1377,14 @@ p.form-field label,
 	#header-hero .content-area {
 		background: red;
 		width: 50%;
+		align-self: center;
 	}
+		#header-hero .content-area h1 {
+			color: var(--rt-color-white);
+		}
+		#header-hero .content-area p {
+			color: #a4a4a4;
+		}
 	#header-hero img {
 		width: 40%;
 	}
