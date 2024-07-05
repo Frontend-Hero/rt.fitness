@@ -706,8 +706,8 @@ html {
 }
 body {
 	background: var(--nal-white);
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 1.6rem;
 	color: var(--nal-secondary-dark);
