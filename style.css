@@ -1363,6 +1363,9 @@ p.form-field label,
 	Header
 ******************************************************************/
 
+#header-full-width {
+	border: 5px solid blue;
+}
 #primary-header {
 	background: var(--nal-white);
 	padding: 35px 0px;
