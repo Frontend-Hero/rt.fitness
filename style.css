@@ -483,7 +483,7 @@ select {
 body.page-template-blocks .pattern-2-col-post > div > .wp-block-group > .wp-block-group__inner-container {
 	position: relative;
 	width: 100%;
-	max-width: 1020px !important;
+	max-width: 960px !important;
 	margin: 0 auto;
 	padding: 0 15px;
 }
