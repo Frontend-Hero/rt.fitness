@@ -1565,7 +1565,7 @@ p.form-field label,
 		opacity: 1;
 	}
     
-    #nav-primary ul.sub-menu a, 
+    /* #nav-primary ul.sub-menu a, 
     #nav-primary li.menu-item-has-children:hover a,
     #nav-primary li.menu-item-has-children ul a:hover,
     #nav-primary li.current-menu-item a, 
@@ -1574,7 +1574,7 @@ p.form-field label,
     body.sfwd-courses-template-default #nav-primary li.menu-item-264 a {
         background-color: #FAFAFA;
         color: #4f4f4e;
-    }
+    } */
     
     #nav-primary li.menu-item-has-children:hover ul.sub-menu {
         opacity: 0;
