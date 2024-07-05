@@ -698,7 +698,7 @@ textarea{
 	top: 0;
 	width: 45px;
 	height: 100%;
-	transform: skewX(30);
+	transform: skewX(345deg);
 }
 .btn:hover,
 .wp-block-button__link:hover {
