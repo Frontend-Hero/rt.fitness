@@ -1453,29 +1453,14 @@ p.form-field label,
 					position: relative;
 					flex-grow: 1;
 				}
-					#nav-primary > ul > li.trp-language-switcher-container {
-						right: 15px;
-						position: absolute;
-						width: 170px;
-						border-bottom: 5px solid var(--nal-primary)
-					}
-						#nav-primary li.trp-language-switcher-container ul {
-							width: 100%;	
-						}
 					#nav-primary a {
 						display: block;
 						color: #fff;
 						padding: 1.5rem 2.8rem;
 						text-decoration: none;
+						font-size: 2.4rem;
+						font-weight: 700;
 					}
-                    #nav-primary li.current-menu-item a,
-
-					body.parent-pageid-125 #nav-primary li.menu-item-264 a,
-
-					body.sfwd-courses-template-default #nav-primary li.menu-item-264 a {
-                        background: var(--nal-primary);
-                        color: var(--rt-color-white);
-                    }
                     #nav-primary a:hover {
                         background: var(--nal-primary);
                         color: var(--nal-white);
