@@ -685,7 +685,19 @@ textarea{
     border-radius: 12px 0px 0px 12px;
     text-decoration: none;
     padding: calc(0.667em + 2px) calc(1.333em + 2px);
-    font-size: 1.6rem;
+    font-size: 2.6rem;
+	text-transform: uppercase;
+	position: relative;
+}
+.btn::after {
+	position: absolute;
+	content: "";
+	background: blue;
+	border-radius: 12px;
+	right: 0;
+	top: 0;
+	width: 45px;
+	height: 100%;
 }
 .btn:hover,
 .wp-block-button__link:hover {
