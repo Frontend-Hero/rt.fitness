@@ -20,35 +20,39 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <div id="header-full-width">
 	
 	<header id="primary-header">
 		<div class="wrapper">
-			<div class="grid">
-				<h1 class="grid-span-6">
-					<a class="logo" href="<?php echo home_url(); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
-					</a>
-				</h1>
-				<div id="hamburger" class="hamburger hamburger--slider js-hamburger">
+			<div class="grid">			
+                <a class="logo" href="<?php echo home_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
+                </a>
+                <div id="nav-primary-wrapper">
+                <?php 
+                $args = array
+                (
+                    'menu' 			  => 3,
+                    'container' 	  => 'nav',
+                    'container_id'	  => 'nav-primary',
+                    'container_class' => 'grid-span-9 wrapper'
+                );
+                wp_nav_menu( $args ); ?>
+                </div>
+				<!--
+                <div id="hamburger" class="hamburger hamburger--slider js-hamburger">
                     <div class="hamburger-box">
                         <div class="hamburger-inner"></div>
                     </div>
                 </div>
+                -->
 			</div>
-			
 		</div>
 	</header>
+
+    </div>
 	
-	<div id="nav-primary-wrapper">
-	<?php 
-	$args = array
-	(
-		'menu' 			  => 3,
-		'container' 	  => 'nav',
-		'container_id'	  => 'nav-primary',
-		'container_class' => 'grid-span-9 wrapper'
-	);
-	wp_nav_menu( $args ); ?>
-	</div>
+	
 	
 	
