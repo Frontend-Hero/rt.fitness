@@ -61,7 +61,7 @@
                 scelerisque, pharetra quam non.</p>
                 <a href="">Free 30 Min Consultation</a>
             </div>
-            <img src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
+            <img class="featured" src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
         </div>
     </div>
 

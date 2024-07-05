@@ -1373,7 +1373,7 @@ p.form-field label,
 		#header-hero .content-area p {
 			color: #a4a4a4;
 		}
-	#header-hero img {
+	#header-hero img.featured {
 		width: 40%;
 	}
 
