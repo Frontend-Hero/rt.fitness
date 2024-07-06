@@ -1372,7 +1372,7 @@ p.form-field label,
  * Hero 
 */
 #header-hero {
-	background: #000;
+	background: url(images/bg-dark.png)center center / 100% 100% no-repeat #000;
 	min-height: 600px;
 }
 	#header-hero .content-area {
@@ -1390,11 +1390,13 @@ p.form-field label,
 		}
 	#header-hero img.featured {
 		width: 34%;
+		margin-top: -40px;
 	}
 
 #nav-wrapper {
 	border: 2px solid red;
 	grid-column: span 9;
+	position: relative;
 }
 
 /** 
@@ -1402,15 +1404,25 @@ p.form-field label,
  */
 #contact-menu {
 	border: 2px solid blue;
+	margin-top: 20px;
 }
 	#contact-menu ul {
 		display: flex;
 		justify-content: flex-end;
 	}
+		#contact-menu li:last-child {
+			margin-left: 35px;
+		}
 	#contact-menu a {
-		color: var(--rt-color-white);
+		color: #D0D0D0;
+		font-weight: 700;
+		font-size: 1.8rem;
 	}
 
+
+/** 
+ * Primary Header
+ */
 #primary-header {
 	background: var(--nal-white);
 	padding: 35px 0px;
@@ -1429,6 +1441,14 @@ p.form-field label,
         margin-top: 6px;
 	}
 
+	/** 
+	 * Logo
+	 */ 
+	 .logo img {
+		border: 2px solid blue;
+		width: 80%;
+	 }
+
 
 	/** 
 	 * Primary nav
@@ -1439,8 +1459,9 @@ p.form-field label,
 		border: 2px solid red;
 	}
 		#nav-primary {
-			display: flex;
-			align-items: center;
+			position: absolute;
+			width: 100%;
+			bottom: 20px;
 		}
 			#nav-primary > ul {
 				display: flex;
