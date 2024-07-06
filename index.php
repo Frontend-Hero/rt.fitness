@@ -7,7 +7,7 @@
                 <div class="grid-span-9">
                 <?php while(have_posts()): the_post(); ?> 
 
-                    <div <?php post_class(); ?>>----iop
+                    <div <?php post_class(); ?>>
 
                         <?php /* if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>">

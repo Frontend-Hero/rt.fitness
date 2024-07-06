@@ -1,7 +1,7 @@
 <?php 
 $args = array
 (
-    'menu' 			  => 4,
+    'menu' 			  => 2,
     'container' 	  => 'nav',
     'container_id'	  => 'nav-primary',
     'container_class' => ''
