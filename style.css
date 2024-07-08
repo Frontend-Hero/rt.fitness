@@ -702,6 +702,16 @@ textarea{
 	transform: skewX(345deg);
 	z-index: -1;
 }
+.btn.with-arrow::before {
+	position: absolute;
+	content: "";
+	right: -14px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 35px;
+	height: 29px;
+	background: url("images/icon-arrow-right-dark-red.svg;") 0 0 / 34px no-repeat;
+}
 .btn:hover,
 .wp-block-button__link:hover {
 	opacity: 0.8;
@@ -1381,12 +1391,14 @@ p.form-field label,
 	}
 		#header-hero .content-area h1 {
 			color: var(--rt-color-white);
+			margin-bottom: 1.5rem;
 		}
 		#header-hero .content-area p {
 			color: #a4a4a4;
 			font-size: 2.6rem;
 			line-height: 3.6rem;
 			padding-right: 125px;
+			margin-bottom: 35px;
 		}
 	#header-hero img.featured {
 		width: 34%;
@@ -1403,21 +1415,41 @@ p.form-field label,
  * Contact nav 
  */
 #contact-menu {
-	border: 2px solid blue;
-	margin-top: 20px;
+	margin-top: 26px;
 }
 	#contact-menu ul {
 		display: flex;
 		justify-content: flex-end;
 	}
+		#contact-menu li {
+		}
 		#contact-menu li:last-child {
 			margin-left: 35px;
 		}
 	#contact-menu a {
 		color: #D0D0D0;
 		font-weight: 700;
-		font-size: 1.8rem;
+		font-size: 1.9rem;
+		text-decoration: none;
+		position: relative;
+		display: block;
+		padding-left: 32px;
 	}
+		#contact-menu a::before {
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			left: 0px;
+			top: 2px;
+			background: url("images/icon-phone.svg") center center / 100% no-repeat;
+		}
+		#menu-item-28 a::before {
+			background: url("images/icon-email.svg") center center / 100% no-repeat;
+		}
+		#contact-menu a:hover {
+			color: #fff;
+		}
 
 
 /** 
@@ -1429,7 +1461,6 @@ p.form-field label,
 	width: 100%;
     position: relative;
 	z-index: 1;
-	border: 2px solid red;
 }
 	.hamburger {
         position: absolute;
@@ -1444,10 +1475,13 @@ p.form-field label,
 	/** 
 	 * Logo
 	 */ 
-	 .logo img {
-		border: 2px solid blue;
-		width: 80%;
+	 .logo {
+		margin-left: 15px;
 	 }
+		.logo img {
+			border: 2px solid blue;
+			width: 80%;
+		}
 
 
 	/** 
@@ -1461,24 +1495,24 @@ p.form-field label,
 		#nav-primary {
 			position: absolute;
 			width: 100%;
-			bottom: 20px;
+			bottom: 2px;
 		}
 			#nav-primary > ul {
 				display: flex;
 				border-radius: 5px;
 				width: 100%;
+				justify-content: space-between;
 			}
 				#nav-primary li {
 					display: block;
 					margin-right: 0;
 					position: relative;
-					flex-grow: 1;
 				}
 					#nav-primary a {
 						display: block;
 						color: #fff;
 						text-decoration: none;
-						font-size: 2.4rem;
+						font-size: 2.5rem;
 						font-weight: 700;
 					}
                     #nav-primary a:hover {

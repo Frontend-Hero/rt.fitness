@@ -46,19 +46,7 @@
 		</div>
 	</header>
 
-    <div id="hero">
-        <div class="wrapper rt-flex rt-flex-gap-50">
-            <div class="content-area">
-                <h1>PERSONAL TRAINER 
-                NEWPORT, SHROPSHIRE</h1>
-                <p>Aliquam risus odio, eleifend vitae facilisis 
-                quis, facilisis non risus ut nec magna 
-                scelerisque, pharetra quam non.</p>
-                <a class="btn" href="">Free 30 Min Consultation</a>
-            </div>
-            <img class="featured" src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
-        </div>
-    </div>
+    <?php get_template_part('partials/hero'); ?>
 
     </div>
 	
