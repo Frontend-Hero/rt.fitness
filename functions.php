@@ -52,10 +52,6 @@
 		 * @link https://developer.wordpress.org/reference/functions/register_block_type/
 		 */
 		/* register_block_type( __DIR__ . '/blocks/hero' ); */
-		/* register_block_type( __DIR__ . '/blocks/about-area' );
-		register_block_type( __DIR__ . '/blocks/blog-posts' );
-        register_block_type( __DIR__ . '/blocks/accordion' );
-		register_block_type( __DIR__ . '/blocks/courses' ); */
 	}
 	// Here we call our tt3child_register_acf_block() function on init.
 	add_action( 'init', 'rt_register_acf_blocks' );
@@ -85,13 +81,15 @@
 	{	
 		/* Styles */
 		wp_enqueue_style( 'adobe-futura', 'https://use.typekit.net/uqs2rox.css' );
+		wp_enqueue_style( 'slick', get_template_directory_uri() . '/css/slick.css' );
 		wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' );
-		//wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap' );
         //wp_enqueue_style( 'hamburger', get_template_directory_uri() . '/css/hamburger.min.css' );
 		wp_enqueue_style( 'rt-fitness', get_stylesheet_uri() . '' );
 		 
 		/* JS */
 		wp_enqueue_script('jquery');
+		wp_enqueue_script('slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js');
+
 		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js?v=9hdfg5' );
 	}
 

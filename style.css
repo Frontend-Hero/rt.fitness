@@ -46,6 +46,12 @@ Version: 1.0
 .rt-pad-top-2 { padding-top: 5rem; }
 .rt-pad-top-1 { padding-top: 5rem; }
 
+.rt-pad-bot-5 { padding-bottom: 5rem; }
+.rt-pad-bot-4 { padding-bottom: 5rem; }
+.rt-pad-bot-3 { padding-bottom: 5rem; }
+.rt-pad-bot-2 { padding-bottom: 5rem; }
+.rt-pad-bot-1 { padding-bottom: 5rem; }
+
 
 /*****************************************************************
 	Menu: Social Media
@@ -1040,7 +1046,7 @@ p.form-field label,
  * Hero 
 */
 #header-hero {
-	background: url(images/bg-dark.png)center center / 100% 100% no-repeat #000;
+	background: url(images/bg-trans.png) center center / cover no-repeat rgba(0, 0, 0, 0.912);
 	min-height: 600px;
 }
 	#header-hero .content-area {
@@ -1279,10 +1285,66 @@ p.form-field label,
 ******************************************************************/
 
 .personal-training-testimonials {
-	border: 2px solid blue;
+	background: url(images/bg-red.png) center center / cover no-repeat;
+	min-height: 600px;
+	position: relative;
 }
-	
+	.personal-training-testimonials .wrapper > * {
+		color: #fff;
+	}
+		.testimonial-wrapper {
+			height: 225px;
+			transform: skewX(345deg);
+			max-width: 600px;
+			margin: 0 1.5rem;
+			padding-bottom: 7.5rem;
+		}
+		.testimonial::before {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			content: "";
+			bottom: 0px;
+			left: 25px;
+			background: url(images/testimonial-speech.svg) left / contain no-repeat;
+		}
+			.testimonial { 
+				background: #fff;
+				border-radius: 10px;
+				padding: 2.5rem;
+			}
+			.testimonial-wrapper blockquote {
+				margin: 0;
+				border: 0px none;
+				padding: 0;
+			}
+			.testimonial-wrapper p {
+				color: var(--rt-color-darker);
+				font-weight: 500;
+				margin: 0;
+			}
+			.testimonial-author {
+				background: yellow;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
 
+		/** 
+		 * Author heights
+		 */
+		 .testimonial-wrapper.author-keith {
+			
+		 }
+		 	.testimonial-wrapper.author-keith .testimonial::before { bottom: 127px; }
+			.testimonial-wrapper.author-keith .testimoniale { bottom: 127px; }
+
+
+/** 
+ * Slick tweak to center align testimonials
+ */
+.slick-track { display: flex; }
+.slick-track .slick-slide { display: flex; height: auto; align-items: center; justify-content: center; }
 
 
 /*****************************************************************
