@@ -6,4 +6,4 @@ $args = array
     'container_id'	  => 'contact-menu',
     'container_class' => ''
 );
-wp_nav_menu( $args ); ?>
+wp_nav_menu( $args ); ?> 
