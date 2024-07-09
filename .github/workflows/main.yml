@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v4
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: SamKirkland/FTP-Deploy-Action@v4.1.0
       with:
         server: grh44.myukcloud.com
         username: k3-fDdePstOO0@rt.fitness
