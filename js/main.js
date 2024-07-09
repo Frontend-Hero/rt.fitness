@@ -6,6 +6,10 @@ jQuery(document).ready(function() {
         slidesToShow: 3,
         variableWidth: true,
         adaptiveHeight: true,
+        initialSlide: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false
 
         /* responsive: [
         {
