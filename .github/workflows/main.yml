@@ -16,3 +16,4 @@ jobs:
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
         server-dir: public_html/wp-content/themes/rt-fitness/
+        
