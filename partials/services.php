@@ -10,6 +10,7 @@
                 <img src="http://rtfitness.local/wp-content/uploads/2024/07/dummy.png" alt="">
                 <h3>1-2-1<br>Personal Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
+                <a class="text-link with-arrow" href="">Learn More</a>
             </a>
         </div>
         <div class="grid-span-4">
@@ -17,6 +18,7 @@
                 <img src="http://rtfitness.local/wp-content/uploads/2024/07/dummy.png" alt="">
                 <h3>1-2-2<br>Personal Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
+                <a class="text-link with-arrow" href="">Learn More</a>
             </a>
         </div>
         <div class="grid-span-4">
@@ -24,6 +26,7 @@
                 <img src="http://rtfitness.local/wp-content/uploads/2024/07/dummy.png" alt="">
                 <h3>Small Group<br> Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
+                <a class="text-link with-arrow" href="">Learn More</a>
             </a>
         </div>
     </div>

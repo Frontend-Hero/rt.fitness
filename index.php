@@ -4,7 +4,11 @@
 
         <?php get_template_part('partials/services'); ?>
 
+        <?php get_template_part('partials/about-intro'); ?>
+
         <?php get_template_part('partials/testimonials'); ?>
+
+        <?php get_template_part('partials/quick-contact'); ?>
         
         <!--<div class="grid">
             <div class="grid-span-9">
