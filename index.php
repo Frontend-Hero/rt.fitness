@@ -1,47 +1,42 @@
 <?php get_header(); ?>
 		
     <div id="main-area">
-        <div class="wrapper">
 
-            <section class="personal-training-intro">
-                <h2 class="rt-text-center">My Personal Training Services</h2>
-                ....
-            </section>
-            
-            <!--<div class="grid">
-                <div class="grid-span-9">
-                <?php while(have_posts()): the_post(); ?> 
+        <?php get_template_part('partials/services'); ?>
 
-                    <div <?php post_class(); ?>>
+        <?php get_template_part('partials/testimonials'); ?>
+        
+        <!--<div class="grid">
+            <div class="grid-span-9">
+            <?php while(have_posts()): the_post(); ?> 
 
-                        <?php /* if(has_post_thumbnail()): ?>
-                        <a href="<?php the_permalink(); ?>">
-                            <div class="thumbnail" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
-                                <?php // the_post_thumbnail(); ?> 
-                            </div>
-                        </a>
-                        <?php endif; */ ?>
+                <div <?php post_class(); ?>>
 
-                        <div class="content-area excerpt">
-                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <div class="entry">
-                                <?php the_excerpt(); ?>
-                            </div>
-                            <div class="tags">
-                                <?php echo get_the_tag_list('',' ',''); ?>
-                            </div>
+                    <?php /* if(has_post_thumbnail()): ?>
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="thumbnail" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
+                            <?php // the_post_thumbnail(); ?> 
+                        </div>
+                    </a>
+                    <?php endif; */ ?>
+
+                    <div class="content-area excerpt">
+                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                        <div class="entry">
+                            <?php the_excerpt(); ?>
+                        </div>
+                        <div class="tags">
+                            <?php echo get_the_tag_list('',' ',''); ?>
                         </div>
                     </div>
-                <?php endwhile; ?> 
                 </div>
+            <?php endwhile; ?> 
+            </div>
 
-                <?php // get_sidebar(); ?>
+            <?php // get_sidebar(); ?>
 
-            </div>-->
-            <!-- / grid -->
-
-        </div>
-        <!-- / wrapper -->
+        </div>-->
+        <!-- / grid -->
 
     </div>
     <!-- / main area -->
