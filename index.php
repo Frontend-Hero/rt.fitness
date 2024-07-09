@@ -2,8 +2,13 @@
 		
     <div id="main-area">
         <div class="wrapper">
+
+            <section class="personal-training-intro">
+                <h2 class="rt-text-center">My Personal Training Services</h2>
+                ....
+            </section>
             
-            <div class="grid">
+            <!--<div class="grid">
                 <div class="grid-span-9">
                 <?php while(have_posts()): the_post(); ?> 
 
@@ -32,7 +37,7 @@
 
                 <?php // get_sidebar(); ?>
 
-            </div>
+            </div>-->
             <!-- / grid -->
 
         </div>

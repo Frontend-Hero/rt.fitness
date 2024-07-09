@@ -36,6 +36,11 @@ Version: 1.0
 .rt-flex-gap-50 {
 	gap: 50px;
 }
+.rt-text-center {
+	text-align: center;
+}
+
+
 /* .nal-text-colour-primary {
     color: var(--nal-primary) !important;
 }
@@ -1444,7 +1449,7 @@ p.form-field label,
 			top: 2px;
 			background: url("images/icon-phone.svg") center center / 100% no-repeat;
 		}
-		#menu-item-28 a::before {
+		#menu-item-29 a::before {
 			background: url("images/icon-email.svg") center center / 100% no-repeat;
 		}
 		#contact-menu a:hover {
@@ -1579,223 +1584,16 @@ p.form-field label,
 
 
 
-@media only screen and (max-width: 1020px) {
- 
-	#nav-primary > ul > li.menu-item-has-children > a::after {
-		content: none;
-	}
-	#nav-primary ul.sub-menu {
-		position: relative;
-		width: 100%;
-		visibility: visible;
-		opacity: 1;
-		border-top: 1px solid #ccc;
-	}
-		#nav-primary ul.sub-menu li a,
-		#nav-primary ul.sub-menu li a:hover,
-		#nav-primary ul.sub-menu li:hover {
-			background: #fff !important;
-		}
-		#nav-primary ul.sub-menu li a  {
-			padding-left: 5rem;
-		}
-	
-			#nav-primary ul.sub-menu li:last-child {
-				border: 0px none;
-			}
-	
-	
-	#nav-primary li.menu-item-has-children:hover ul.sub-menu {
-		opacity: 1 !important;
-    	visibility: visible !important;
-	}
-        #primary-header h1 {
-            grid-column: span 10;
-        }
-    
-    .hamburger {
-        display: block;
-    }
-    
-    #nav-primary {
-        padding: 0 !important;
-    }    
-        #nav-primary > ul {
-            flex-direction: column;
-        }
-            #nav-primary li {
-                border-bottom: 1px solid #ccc;
-            }
-    
-    #nav-primary {
-		visibility: hidden;
-		opacity: 0;
-		position: absolute !important;
-		top: 5px;
-    }
-	#nav-primary.active {
-		visibility: visible;
-		opacity: 1;
-	}
-    
-    /* #nav-primary ul.sub-menu a, 
-    #nav-primary li.menu-item-has-children:hover a,
-    #nav-primary li.menu-item-has-children ul a:hover,
-    #nav-primary li.current-menu-item a, 
-    #nav-primary li:hover a, 
-    body.parent-pageid-125 #nav-primary li.menu-item-264 a, 
-    body.sfwd-courses-template-default #nav-primary li.menu-item-264 a {
-        background-color: #FAFAFA;
-        color: #4f4f4e;
-    } */
-    
-    #nav-primary li.menu-item-has-children:hover ul.sub-menu {
-        opacity: 0;
-        visibility: hidden;
-    }
-    #menu-item-709 {
-        display: none !important;
-    }
-    
-    /** 
-    * Hero 
-    */
-    .hero h1, 
-    .hero h3 {
-        padding-left: 125px;
-        padding-right: 125px;
-    }
-    
-    .pattern-2-col-post .wp-block-column {
-        align-content: flex-start;
-    }
-    .pattern-2-col-post .wp-block-columns {
-        gap: 15px;
-    }
-        
-}
 
-@media only screen and (max-width: 900px) {
- 
-    /** 
-    * Hero 
-    */
-    .hero h1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .hero h3 {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-    
-}
-
-
-@media only screen and (max-width: 800px) {
-
-    #primary-header {
-        padding: 15px 0 15px 0;
-    }
-    #primary-header h1 {
-        font-size: 3.4rem;
-    }
-    
-    .hero h1 {
-        font-size: 4.2rem;
-        line-height: 5.2rem;
-    }
-    .hero h3 {
-        margin-top: 1.2rem;
-    }
-    
-    .nal-width-45pc {
-        width: 65%;
-    }
-    
-    .wp-block-group.nal-bg-colour-accent-lighter.nal-pad-top-5.nal-pad-bot-5 {
-        
-    }
-        .wp-block-group.nal-bg-colour-accent-lighter.nal-pad-top-5.nal-pad-bot-5 h2 {
-            font-size: 3rem;
-            line-height: 4rem;
-        }
-    
-    .pattern-cta-global * {
-        padding-left: 14%;
-        padding-right: 14%;
-    }
-    .pattern-cta-global .wp-block-button {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-        .pattern-cta-global h3 {
-            font-size: 2.4rem;
-            line-height: 3.2rem;
-            font-weight: 500;
-            padding: 0 15px 0 15px;
-        }
-    
-}
-
-
-@media only screen and (max-width: 700px) {
-
-    .wp-block-group.nal-bg-colour-accent-lighter.nal-pad-top-5.nal-pad-bot-5 {
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
-    }
-        .wp-block-group.nal-bg-colour-accent-lighter.nal-pad-top-5.nal-pad-bot-5 h2 {
-            padding-right: 15px;
-            padding-left: 15px;
-            font-size: 3rem;
-            line-height: 3.6rem;
-        }
-            .wp-block-group.nal-bg-colour-accent-lighter.nal-pad-top-5.nal-pad-bot-5 br {
-                display:  none;
-            }
-    
-    #vertical-list-help {
-        padding: 0 15px;
-    }
-    
-    #reserva-ahora {
-        padding: 0 15px;
-    }
-        
-}
-
-@media only screen and (max-width: 550px) {
-
-    .nal-width-45pc {
-        width: 85%;
-    }
-    
-}
 
 /*****************************************************************
-	Block: Welcome intro
+	Block: Personal Training Intro
 ******************************************************************/
 
-.about-area {
-	
+.personal-training-intro {
+	border: 2px solid red;
 }
-    figure.about-image {
-        width: 240px;
-    }
-	.about-area img {
-		margin-bottom: 3rem
-	}
-	.about-area p {
-		margin: 0;
-	}
 
-
-
-
-.wp-block-cover .wp-block-button a {
-	border: 0 none !important;
-}
 
 
 
