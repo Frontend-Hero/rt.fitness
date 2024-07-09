@@ -663,6 +663,7 @@ body {
         } */
 
         .nal-cat-post {
+			/* empty */
         }
             .nal-cat-post img {
                 display: block;
@@ -746,14 +747,6 @@ figure.single-post-image {
 
 
 
-
-li::marker {
-
-}
-
-
-
-
 /*****************************************************************
 	Privacy
 ******************************************************************/
@@ -777,7 +770,7 @@ pre[class*="language-"] {
 	font-size: 16px;
 	background: /* #EEF7FC; */ #f7f7f7;
 	-ms-overflow-style: none;
-	crollbar-width: none; 
+	scrollbar-width: none; 
 }
 	pre[class*="language-"] code {
 		padding: 0;
