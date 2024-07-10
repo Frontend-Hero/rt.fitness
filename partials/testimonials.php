@@ -6,68 +6,73 @@
             Nisl tristique in. Vestibulum efficitur sapien non massa.</p>
 
             <div class="testimonials-wrapper">
-                <div class="testimonial-wrapper author-keith">
+
+                <div class="testimonial-wrapper author-kayleigh">
                     <div class="testimonial">
                         <blockquote>
-                            <p>"Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in."</p>
-                        </blockquote>
-                        <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
-                    </div>
-                    
-                </div>
-                <div class="testimonial-wrapper author-paul">
-                    <div class="testimonial">
-                        <blockquote>
-                            <p>I’ve known Maurice for over 2 decades, I worked with him a few years back, or should I say got beasted by him and far surpassed my expectations, I’m now doing another PT plan with him and have been lucky enough to use the gym as part of it- absolutely great place, atmosphere is spot on, equipment is first class and the tuition is all that and more. The gym, the equipment they’re great but without the passion and knowledge of Maurice it wouldn’t be what it is, with him it’s a winning combination-10 stars!
+                            <p>
+                                <span class="indent-text indent-text-6">"The start of my PT journey with Rich has been amazing!</span>
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-5">His expertise, encouragement, and genuine passion for fitness and</span> 
+                                <span class="indent-text indent-text-4">lifestyle goals has made each session enjoyable(!) and effective.</span> 
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-2-7">With his guidance and personalised plan, he has instilled a sense of</span>
+                                <span class="indent-text indent-text-1-5">motivation and dedication that reaches beyond the gym and I am</span> 
+                                <span class="indent-text indent-text-0-7">already reaching milestones I never thought possible.</span>
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-0">If you're looking for a dedicated and knowledgeable personal trainer,</span> 
+                                <span class="indent-text indent-text-0--1">Rich is a great choice"</span>
                             </p>
                         </blockquote>
+                        <footer class="testimonial-author">Kayleigh</footer>
                     </div>
-                    <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
                 </div>
-                <div class="testimonial-wrapper author-shel">
+                
+                
+                <!--<div class="testimonial-wrapper author-kayleigh">
                     <div class="testimonial">
                         <blockquote>
-                            <p>Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in. </p>
+                            <p>
+                                <span class="indent-text indent-text-6-5">"Training with Rich has completely changed my perspective on</span>
+                                <span class="indent-text indent-text-5-5">workout!</span>
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-2-5">The tailored workouts and constanencouragement have not only</span> 
+                                <span class="indent-text indent-text-1-5">strengthened my body but also provided a powerful outlet for stress</span> 
+                                <span class="indent-text indent-text-0-8">relief.</span>
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-0-5">His infectious energy and creative approach to fitness makes every</span>
+                                <span class="indent-text indent-text-0">session a blast. I never thought breaking a sweat could be this much fun.</span>
+                            </p>
+                            <p>
+                                <span class="indent-text indent-text-0-5">Thanks to Rich, getting fit has become a joyful adventure rather than a</span>
+                                <span class="indent-text indent-text-0">a chore! If you're ready to laugh your way to a healthier you, I can 100% recommend Rich</span>
+                            </p>
                         </blockquote>
+                        <footer class="testimonial-author">Client #1</footer>
                     </div>
-                    <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
-                </div>
-                <div class="testimonial-wrapper author-barb">
+                </div>-->
+
+                <!--<div class="testimonial-wrapper author-keith">
                     <div class="testimonial">
                         <blockquote>
-                            <p>Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in.</p>
+                            <p>
+                                <span class="indent-text indent-text-6-5">"I’ve been finding it difficult to lose the weight over the past few years,</span>
+                                <span class="indent-text indent-text-5-5">so I thought I’d hire a personal trainer to help with my goals. After finding RT Fitness</span>
+                            </p>
                         </blockquote>
+                        <footer class="testimonial-author">Keith</footer>
                     </div>
-                    <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
-                </div>
-                <div class="testimonial-wrapper author-ben">
-                <div class="testimonial">
-                        <blockquote>
-                            <p>Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in. </p>
-                        </blockquote>
-                    </div>
-                    <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
-                </div>
-                <div class="testimonial-wrapper author-emma">
-                    <div class="testimonial">
-                        <blockquote>
-                            <p>Morbi tincidunt volutpat eros, ut lobortis mais emod.
-                            Vivamus fermentum dolor nibh, posuere efficitur 
-                            lorem faucibus in. </p>
-                        </blockquote>
-                    </div>
-                    <footer class="testimonial-author">Nula placerat bibendum odio!</footer>
-                </div>
+                </div>-->
+
+                  <!--and training with Rich for the past five weeks – simply put, I wish I did it sooner!
+
+                    Rich is a fantastic personal trainer, super attentive, and extremely motivating – I’m already starting 
+                    to see improvement in strength, and I’m slowly losing the weight. I wouldn’t hesitate to recommend him.-->
             </div>
         </div>
     </div>

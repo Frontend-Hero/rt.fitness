@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
         adaptiveHeight: true,
         initialSlide: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 53000,
         arrows: false
 
         /* responsive: [
