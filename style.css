@@ -35,8 +35,14 @@ Version: 1.0
 .rt-flex-gap-50 {
 	gap: 50px;
 }
-.rt-text-center {
-	text-align: center;
+.rt-text-center { text-align: center; }
+
+.rt-text-highlight {
+	background: #000;
+    color: #fff;
+    padding: 0px 7px;
+	transform: rotate(-1deg);
+	display: inline-block;
 }
 
 .rt-pad-top-5 { padding-top: 5rem; }
@@ -675,7 +681,8 @@ body {
 
 	.rt-quick-contact input:focus,
 	.rt-quick-contact textarea:focus {
-		box-shadow: 0px 0px 5px 0px rgb(212, 212, 212) !important;
+		/* box-shadow: 0px 0px 5px 0px rgb(212, 212, 212) !important; */
+		background: #e5e5e5 !important;
 	}
 
 	.rt-quick-contact legend,
@@ -683,6 +690,13 @@ body {
 	#gfield_description_1_3,
 	.gform_validation_errors {
 		display: none !important
+	}
+
+	.rt-quick-contact textarea {
+		min-block-size: 18rem !important;
+	}
+	.rt-quick-contact .gform_footer {
+		justify-content: center;
 	}
 
 
