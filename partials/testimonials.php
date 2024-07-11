@@ -30,9 +30,9 @@
                         <footer class="testimonial-author">Kayleigh</footer>
                     </div>
                 </div>
+                <!-- Individual testimonial -->
                 
-                
-                <!--<div class="testimonial-wrapper author-kayleigh">
+                <div class="testimonial-wrapper author-kayleigh">
                     <div class="testimonial">
                         <blockquote>
                             <p>
@@ -55,24 +55,62 @@
                         </blockquote>
                         <footer class="testimonial-author">Client #1</footer>
                     </div>
-                </div>-->
+                </div>
+                <!-- Individual testimonial -->
 
-                <!--<div class="testimonial-wrapper author-keith">
+                <div class="testimonial-wrapper author-keith">
                     <div class="testimonial">
                         <blockquote>
+                            <p>                                           
+                                <span class="indent-text indent-text-3-5">"I’ve been finding it difficult to lose the weight over the past few years,</span>
+                                <span class="indent-text indent-text-2-5">so I thought I’d hire a personal trainer to help with my goals. After finding </span> 
+                                <span class="indent-text indent-text-1-5">RT Fitness and training with Rich for the past five weeks – simply put, I wish </span>
+                                <span class="indent-text indent-text-1-5">I did it sooner!</span>
+                            </p>
                             <p>
-                                <span class="indent-text indent-text-6-5">"I’ve been finding it difficult to lose the weight over the past few years,</span>
-                                <span class="indent-text indent-text-5-5">so I thought I’d hire a personal trainer to help with my goals. After finding RT Fitness</span>
+                                <span class="indent-text indent-text-0-5">Rich is a fantastic personal trainer, super attentive, and extremely</span>
+                                <span class="indent-text indent-text-0-5">motivating – I’m already starting to see improvement in strength, and I'm</span>
+                                <span class="indent-text indent-text-0">losing the weight. I wouldn’t hesitate to recommend him.</span>
                             </p>
                         </blockquote>
                         <footer class="testimonial-author">Keith</footer>
                     </div>
-                </div>-->
+                </div>
+                <!-- Individual testimonial -->
 
-                  <!--and training with Rich for the past five weeks – simply put, I wish I did it sooner!
+                <div class="testimonial-wrapper author-keith">
+                    <div class="testimonial">
+                        <blockquote>
+                            <p>
+                                <span class="indent-text indent-text-3-5">If you're looking for a personal trainer, I can not recommend Richard</span>
+                                <span class="indent-text indent-text-2-5">Turner enough. When I first started with him I told him my goals and</span>
+                                <span class="indent-text indent-text-2">things I'd like to achieve along the way. I hadn't overly exercised in </span>
+                                <span class="indent-text indent-text-2">a long time and had gained weight. I had also lost my confidence with</span>
+                                <span class="indent-text indent-text-2">doing most things to do with exercise. Rich has helped me put plans </span>
+                                <span class="indent-text indent-text-2">into motion and is very encouraging. </span>
+                            </p>
 
-                    Rich is a fantastic personal trainer, super attentive, and extremely motivating – I’m already starting 
-                    to see improvement in strength, and I’m slowly losing the weight. I wouldn’t hesitate to recommend him.-->
+                            
+                            
+                            <!--<p>
+                                <span class="indent-text indent-text-2">I'm so glad I went to him, he's full of positive energy and makes your</span>
+                                <span class="indent-text indent-text-1">PT session fun as well as having a laugh in between. Today I went into my</span>
+                                <span class="indent-text indent-text-0">session a little low on personal energy and motivation. I can honestly say</span> 
+                                <span class="indent-text indent-text-0">after my session I felt completely different. I had gotten my mojo back and 
+                                <span class="indent-text indent-text-0">felt like myself again.</span>
+                                -->
+                            
+                            <!--
+                            Another thing I love about my sessions is they are never the same, and are never boring. 
+                            Rich switches them up everytime so you are always being challenged which I like. But he is encouraging 
+                            throughout your session and beyond, you honestly will not regret having Rich as your personal trainer.
+                            -->
+
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- / Individual testimonial -->
+
             </div>
         </div>
     </div>
