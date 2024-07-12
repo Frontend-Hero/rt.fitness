@@ -1,3 +1,5 @@
 <div id="social-follow">
-    Social icons placeholder....
+    <div class="wrapper">
+        Social icons placeholder....
+    </div>
 </div>

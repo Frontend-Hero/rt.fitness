@@ -913,9 +913,13 @@ body {
 		bottom: 0;
 		left: 0;
 		width: calc(100%);
-		background: #ccc;
-		padding: 1.5rem;
+		background: #000;
+		padding: 2.5rem;
 	 }
+		#social-follow * {
+			color: #fff;
+		}
+
 
 /*****************************************************************
 	Block: Personal Training Intro
