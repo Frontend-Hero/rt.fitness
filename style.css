@@ -920,6 +920,10 @@ body {
 			color: #fff;
 		}
 
+		.rt-socials {
+			display: flex;
+		}
+
 
 /*****************************************************************
 	Block: Personal Training Intro
