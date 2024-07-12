@@ -711,7 +711,8 @@ body {
 */
 #header-hero {
 	background: url(images/bg-dark.jpeg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
-	min-height: 600px;
+	min-height: 680px;
+	position: relative;
 }
 	#header-hero .content-area {
 		width: 60%;
@@ -730,7 +731,10 @@ body {
 		}
 	#header-hero img.featured {
 		width: 34%;
-		margin-top: -40px;
+	}
+
+	#header-hero .wrapper {
+		z-index: 1;
 	}
 
 #nav-wrapper {
@@ -900,6 +904,18 @@ body {
 						visibility: visible;
 					}
 
+
+	/** 
+	 * Socials follow
+	 */
+	 #social-follow {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: calc(100%);
+		background: #ccc;
+		padding: 1.5rem;
+	 }
 
 /*****************************************************************
 	Block: Personal Training Intro

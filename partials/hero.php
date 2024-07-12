@@ -9,8 +9,6 @@
             <a class="btn with-arrow" href="">Free 30 Min Consultation</a>
         </div>
         <img class="featured" src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
-
-        <?php get_template_part('partials/social-follow'); ?>
-
     </div>
+    <?php get_template_part('partials/social-follow'); ?>
 </div>
