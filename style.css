@@ -1222,3 +1222,6 @@ body {
 	.footer-links ul {
 		 display: flex; 
 	}
+		.footer-links li {
+			margin-right: 15px;
+		}
