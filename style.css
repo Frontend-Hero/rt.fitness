@@ -1218,6 +1218,9 @@ body {
 		font-size: 1.7rem;
 		margin-bottom: 0.5rem;
 	}
+	#footer-primary .grid-span-3 {
+		justify-self: right;
+	}
 
 	.footer-links ul {
 		 display: flex; 
