@@ -14,6 +14,9 @@
 						</ul>
 					</div>
 				</div>
+				<div class="grid-span-3">
+					<p>Made by Toast</p>
+				</div>
 			</div>
 		</div>
 	</footer>
