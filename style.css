@@ -1206,15 +1206,12 @@ body {
 	width: 100%;
 }
 	#footer-primary .grid {
-		border: 2px solid red;
 		grid-gap: 25px;
 	}
 	#footer-primary .rt-logo {
-		border: 1px solid red;
 		width: 100%;
 	}
 	#footer-primary p {
-		border: 1px solid red;
 		font-size: 1.7rem;
 		margin-bottom: 0.5rem;
 	}
