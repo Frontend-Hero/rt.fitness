@@ -1,4 +1,4 @@
-<div id="hero">
+<div id="hero" data-aos="fade-up">
     <div class="wrapper rt-flex rt-flex-gap-50">
         <div class="content-area">
             <h1>PERSONAL TRAINER 

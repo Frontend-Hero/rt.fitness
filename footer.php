@@ -15,7 +15,7 @@
 					</div>
 				</div>
 				<div class="grid-span-3">
-					<p><a href="">Made by Toast</a></p>
+					<p><a target="_blank" href="http://madebytoast.com/">Made by Toast</a></p>
 				</div>
 			</div>
 		</div>
@@ -23,6 +23,10 @@
 
 </div>
 <!-- / wrapper -->
+
+<script>
+  AOS.init();
+</script>
 
 <?php wp_footer(); ?> 
 
