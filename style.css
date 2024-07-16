@@ -980,6 +980,7 @@
 			}
 
 			.rt-fitness-service {
+				
 			}
 				.rt-fitness-service figure {
 					position: relative;
@@ -993,8 +994,8 @@
 					min-height: 225px;
 					overflow: hidden;
 				}
-					.rt-fitness-service figure img.rt-bg { filter: contrast(200%) blur(2px) grayscale(1); width: 125%; }
-					.rt-fitness-service figure img.rt-icon { width: 65%; filter: drop-shadow(0 0 15px #000); }
+					.rt-fitness-service img.rt-bg { filter: contrast(200%) blur(2px) grayscale(1); width: 125%; }
+					.rt-fitness-service img.rt-icon { width: 65%; filter: drop-shadow(0 0 15px #000); }
 
 					.personal-training-services img {
 						display: block;
@@ -1002,7 +1003,15 @@
 						filter: grayscale(1);
 						position: absolute;
 						max-width: 150%;
+						transition: all 0.3s ease;
 					}
+			.rt-fitness-service:hover img.rt-bg {
+				width: 135%;
+			}
+				.rt-fitness-service > a {
+					display: block
+				}
+
 			.personal-training-services h3 {
 				margin-bottom: 1rem;
 			}

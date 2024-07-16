@@ -13,7 +13,7 @@
                 </figure>
                 <h3>1-2-1<br>Personal Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
-                <a class="text-link with-arrow" href="">Learn More</a>
+                <p class="text-link with-arrow">Learn More</p>
             </a>
         </div>
         <div class="rt-fitness-service rt-fitness-ct grid-span-4">
@@ -24,7 +24,7 @@
                 </figure>
                 <h3>1-2-2<br>Personal Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
-                <a class="text-link with-arrow" href="">Learn More</a>
+                <p class="text-link with-arrow">Learn More</p>
             </a>
         </div>
         <div class="rt-fitness-service rt-fitness-gt grid-span-4">
@@ -35,7 +35,7 @@
                 </figure>
                 <h3>Small Group<br> Training</h3>
                 <p>Sedsagittis dui leo, vel gravida. Vestibulum efficitur sapien non massa.</p>
-                <a class="text-link with-arrow" href="">Learn More</a>
+                <p class="text-link with-arrow">Learn More</p>
             </a>
         </div>
     </div>
