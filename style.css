@@ -1155,6 +1155,87 @@
 
 
 	/*****************************************************************
+		Block: FAQ
+	******************************************************************/
+
+	.personal-training-faq {
+		padding: 7.5rem 0;
+		background: url(images/bg-trans.png)
+	}
+
+    .accordion > .wrapper {
+        
+    }
+    .accordion-item {
+        
+    }
+        .accordion-item > * {
+            background: var(--nal-white);
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.6rem;
+            color: var(--nal-secondary-dark);
+            padding: 10px 20px;
+        }
+        .accordion-title,
+        .accordion-content {
+            background-color: var(--nal-accent-lighter);
+            border-radius: 12px;
+            padding-left: 15px;
+            position: relative;
+        }
+        .accordion-title {
+            margin-bottom: 0.5rem;
+            line-height: 2.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 7rem;
+            display: flex;
+            align-items: center
+        }
+        .accordion-title:hover,
+        .accordion-item.active .accordion-title {
+            background-color: red;
+        }
+        .accordion-content {
+            background: none;
+            overflow: hidden;
+            max-height: 0; 
+            transition: max-height 0.3s ease-out;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+            .accordion-content-inner {
+                margin-top: 10px;
+            }
+        .accordion-item.active .accordion-content {
+            max-height: 100vh; /* high enough to handle larger content */
+        }
+            .accordion-content p {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+            }
+        .accordion-title::before {
+            width: 20px;
+            height: 20px;
+            transition: all 0.3s ease;
+            content: "";
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%); 
+            background: url("../../images/icon-angle-arrow-down-red.svg") 0 0 / 90% no-repeat;
+        }
+        .accordion-item.active .accordion-title::before {
+            transform: translateY(-50%) rotate(180deg);
+        }
+
+
+	/*****************************************************************
 		Block: Quick Contact
 	******************************************************************/
 

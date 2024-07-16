@@ -8,6 +8,8 @@
 
         <?php get_template_part('partials/testimonials'); ?>
 
+        <?php get_template_part('partials/faq'); ?>
+
         <?php get_template_part('partials/quick-contact'); ?>
         
         <!--<div class="grid">
