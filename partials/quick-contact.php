@@ -4,6 +4,6 @@
         <p class="rt-text-center">In auctor gravida semper. Sedsagittis dui leo, vel gravida. 
         Nisl tristique in. Vestibulum efficitur sapien non massa.</p>
 
-        <?php echo do_shortcode('[gravityform id="1" title="false"]'); ?>
+        <?php echo do_shortcode('[gravityform id="1" title="false" ajax="true"]'); ?>
     </div>
 </section>

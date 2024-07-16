@@ -19,12 +19,12 @@
                             </p>
                             <p>
                                 <span class="indent-text indent-text-2-7">With his guidance and personalised plan, he has instilled a sense of</span>
-                                <span class="indent-text indent-text-1-5">motivation and dedication that reaches beyond the gym and I am</span> 
-                                <span class="indent-text indent-text-0-7">already reaching milestones I never thought possible.</span>
+                                <span class="indent-text indent-text-2">motivation and dedication that reaches beyond the gym and I am</span> 
+                                <span class="indent-text indent-text-1-5">already reaching milestones I never thought possible.</span>
                             </p>
                             <p>
-                                <span class="indent-text indent-text-0">If you're looking for a dedicated and knowledgeable personal trainer,</span> 
-                                <span class="indent-text indent-text-0--1">Rich is a great choice"</span>
+                                <span class="indent-text indent-text-0-5">If you're looking for a dedicated and knowledgeable personal trainer,</span> 
+                                <span class="indent-text indent-text-0--0-5">Rich is a great choice"</span>
                             </p>
                         </blockquote>
                         <footer class="testimonial-author">Kayleigh</footer>
@@ -32,28 +32,29 @@
                 </div>
                 <!-- Individual testimonial -->
                 
-                <div class="testimonial-wrapper author-kayleigh">
+                <div class="testimonial-wrapper author-no-name-2">
                     <div class="testimonial">
                         <blockquote>
                             <p>
                                 <span class="indent-text indent-text-6-5">"Training with Rich has completely changed my perspective on</span>
-                                <span class="indent-text indent-text-5-5">workout!</span>
+                                <span class="indent-text indent-text-6">workout!</span>
                             </p>
                             <p>
-                                <span class="indent-text indent-text-2-5">The tailored workouts and constanencouragement have not only</span> 
-                                <span class="indent-text indent-text-1-5">strengthened my body but also provided a powerful outlet for stress</span> 
-                                <span class="indent-text indent-text-0-8">relief.</span>
+                                <span class="indent-text indent-text-5">The tailored workouts and constanencouragement have not only</span> 
+                                <span class="indent-text indent-text-4">strengthened my body but also provided a powerful outlet for stress</span> 
+                                <span class="indent-text indent-text-3-5">relief.</span>
                             </p>
                             <p>
-                                <span class="indent-text indent-text-0-5">His infectious energy and creative approach to fitness makes every</span>
-                                <span class="indent-text indent-text-0">session a blast. I never thought breaking a sweat could be this much fun.</span>
+                                <span class="indent-text indent-text-2-5">His infectious energy and creative approach to fitness makes every</span>
+                                <span class="indent-text indent-text-2">session a blast. I never thought breaking a sweat could be this much fun.</span>
                             </p>
                             <p>
-                                <span class="indent-text indent-text-0-5">Thanks to Rich, getting fit has become a joyful adventure rather than a</span>
-                                <span class="indent-text indent-text-0">a chore! If you're ready to laugh your way to a healthier you, I can 100% recommend Rich</span>
+                                <span class="indent-text indent-text-1">Thanks to Rich, getting fit has become a joyful adventure rather than a</span>
+                                <span class="indent-text indent-text-0">a chore! If you're ready to laugh your way to a healthier you, I can</span> 
+                                <span class="indent-text indent-text-0--1">100% recommend Rich</span>
                             </p>
                         </blockquote>
-                        <footer class="testimonial-author">Client #1</footer>
+                        <footer class="testimonial-author">No Name #2</footer>
                     </div>
                 </div>
                 <!-- Individual testimonial -->
@@ -62,15 +63,15 @@
                     <div class="testimonial">
                         <blockquote>
                             <p>                                           
-                                <span class="indent-text indent-text-3-5">"I’ve been finding it difficult to lose the weight over the past few years,</span>
-                                <span class="indent-text indent-text-2-5">so I thought I’d hire a personal trainer to help with my goals. After finding </span> 
-                                <span class="indent-text indent-text-1-5">RT Fitness and training with Rich for the past five weeks – simply put, I wish </span>
-                                <span class="indent-text indent-text-1-5">I did it sooner!</span>
+                                <span class="indent-text indent-text-5">"I’ve been finding it difficult to lose the weight over the past few years,</span>
+                                <span class="indent-text indent-text-4-5">so I thought I’d hire a personal trainer to help with my goals. After </span> 
+                                <span class="indent-text indent-text-3-5">finding RT Fitness and training with Rich for the past five weeks – simply</span>
+                                <span class="indent-text indent-text-3">put, I wish I did it sooner!</span>
                             </p>
                             <p>
-                                <span class="indent-text indent-text-0-5">Rich is a fantastic personal trainer, super attentive, and extremely</span>
-                                <span class="indent-text indent-text-0-5">motivating – I’m already starting to see improvement in strength, and I'm</span>
-                                <span class="indent-text indent-text-0">losing the weight. I wouldn’t hesitate to recommend him.</span>
+                                <span class="indent-text indent-text-2">Rich is a fantastic personal trainer, super attentive, and extremely</span>
+                                <span class="indent-text indent-text-1">motivating – I’m already starting to see improvement in strength, and</span>
+                                <span class="indent-text indent-text-0-5">I'm losing the weight. I wouldn’t hesitate to recommend him.</span>
                             </p>
                         </blockquote>
                         <footer class="testimonial-author">Keith</footer>
@@ -78,19 +79,17 @@
                 </div>
                 <!-- Individual testimonial -->
 
-                <div class="testimonial-wrapper author-keith">
+                <div class="testimonial-wrapper author-no-name">
                     <div class="testimonial">
                         <blockquote>
                             <p>
-                                <span class="indent-text indent-text-3-5">If you're looking for a personal trainer, I can not recommend Richard</span>
-                                <span class="indent-text indent-text-2-5">Turner enough. When I first started with him I told him my goals and</span>
-                                <span class="indent-text indent-text-2">things I'd like to achieve along the way. I hadn't overly exercised in </span>
+                                <span class="indent-text indent-text-4-5">"If you're looking for a personal trainer, I can not recommend Richard</span>
+                                <span class="indent-text indent-text-3-5">Turner enough. When I first started with him I told him my goals and</span>
+                                <span class="indent-text indent-text-3">things I'd like to achieve along the way. I hadn't overly exercised in </span>
                                 <span class="indent-text indent-text-2">a long time and had gained weight. I had also lost my confidence with</span>
-                                <span class="indent-text indent-text-2">doing most things to do with exercise. Rich has helped me put plans </span>
-                                <span class="indent-text indent-text-2">into motion and is very encouraging. </span>
+                                <span class="indent-text indent-text-1">doing most things to do with exercise. Rich has helped me put plans </span>
+                                <span class="indent-text indent-text-0">into motion and is very encouraging."</span>
                             </p>
-
-                            
                             
                             <!--<p>
                                 <span class="indent-text indent-text-2">I'm so glad I went to him, he's full of positive energy and makes your</span>
@@ -107,6 +106,7 @@
                             -->
 
                         </blockquote>
+                        <footer class="testimonial-author">No Name...</footer>
                     </div>
                 </div>
                 <!-- / Individual testimonial -->

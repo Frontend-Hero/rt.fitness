@@ -544,8 +544,10 @@
 		height: 100%;
 		transform: skewX(345deg);
 		z-index: -1;
+		transition: all 0.3s ease;
 	}
 	.with-arrow::before {
+		transition: all 0.3s ease;
 		position: absolute;
 		content: "";
 		right: -20px;
@@ -697,6 +699,13 @@
 			z-index: 1;
 		}
 
+		/** 
+		 * Hero button
+		 */
+		#header-hero .btn:hover { opacity: 1; }
+		#header-hero .btn:hover::before { right: -30px; }
+		#header-hero .btn:hover::after { right: -50px; }
+
 	#nav-wrapper {
 		grid-column: span 9;
 		position: relative;
@@ -836,11 +845,6 @@
 						visibility: hidden;
 						opacity: 0;
 					}
-					/* #nav-primary #menu-item-412 ul.sub-menu {
-						width: 100%;
-					} */
-
-
 
 						#nav-primary ul.sub-menu a,
 						#nav-primary li.menu-item-has-children:hover a {
@@ -873,7 +877,7 @@
 			bottom: 0;
 			left: 0;
 			width: calc(100%);
-			background: #000;
+			background: #2a2a2ad9;
 			padding: 1.3rem;
 			border-top: 1px solid #fff3;
 		}
@@ -888,7 +892,8 @@
 			}
 
 			#social-follow h4 {
-				opacity: 0.65;
+				opacity: 0.55;
+				padding-top: 2px;
 			}
 
 			.rt-socials {
@@ -977,7 +982,8 @@
 					.rt-fitness-service .text-link::before {
 						transition: all 0.3s ease;
 					}
-					.rt-fitness-service:hover .with-arrow::before {
+					.rt-fitness-service:hover .with-arrow::before,
+					.text-link.with-arrow:hover::before {
 						right: -30px;
 					}
 
@@ -1071,9 +1077,11 @@
 				}
 					span.indent-text { display: inline-block; width: 100%;}
 
-					span.indent-text-0--1 { margin-left: -1rem; }
+					span.indent-text-0--1-2 { margin-left: -2rem; }
 					span.indent-text-0--1-5 { margin-left: -1.5rem; }
+					span.indent-text-0--1 { margin-left: -1rem; }
 
+					span.indent-text-0--0-5 { margin-left: -0.5rem; }
 					span.indent-text-0 { margin-left: 0rem; }
 					span.indent-text-0-3 { margin-left: 0.3rem; }
 					span.indent-text-0-7 { margin-left: 0.7rem; }
@@ -1118,30 +1126,24 @@
 				.testimonial-author {
 					position: absolute;
 					bottom: 0;
-					left: 100px;
+					left: 110px;
 					font-size: 1.8rem;
 				}
 
-			/** 
+			/**
 			* Author heights
 			*/
-			.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 29px; }
-			.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 34px; }
+			.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 57px; }
+			.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 54px; }
 
-			.testimonial-wrapper.author-paul .testimonial::before { bottom: 29px; }
-			.testimonial-wrapper.author-paul .testimonial-author { bottom: 32px; }
+			.testimonial-wrapper.author-no-name .testimonial::before { bottom: 97px; }
+			.testimonial-wrapper.author-no-name .testimonial-author { bottom: 92px; }
 
-			.testimonial-wrapper.author-shel .testimonial::before { bottom: 127px; }
-			.testimonial-wrapper.author-shel .testimonial-author { bottom: 130px; }
+			.testimonial-wrapper.author-no-name-2 .testimonial::before { bottom: 29px; }
+			.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 27px; }
 
-			.testimonial-wrapper.author-barb .testimonial::before { bottom: 99px; }
-			.testimonial-wrapper.author-barb .testimonial-author { bottom: 101px; }
-
-			.testimonial-wrapper.author-ben .testimonial::before { bottom: 127px; }
-			.testimonial-wrapper.author-ben .testimonial-author { bottom: 130px; }
-
-			.testimonial-wrapper.author-emma .testimonial::before { bottom: 127px; }
-			.testimonial-wrapper.author-emma .testimonial-author { bottom: 130px; }
+			.testimonial-wrapper.author-keith .testimonial::before { bottom: 79px; }
+			.testimonial-wrapper.author-keith .testimonial-author { bottom: 79px; }
 
 
 	/** 
