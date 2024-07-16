@@ -44,6 +44,9 @@
 		transform: rotate(-1deg);
 		display: inline-block;
 	}
+	.rt-text-highlight:hover {
+		animation: tilt-shaking 0.28s linear;
+	}
 
 	.rt-pad-top-5 { padding-top: 5rem; }
 	.rt-pad-top-4 { padding-top: 5rem; }
@@ -57,61 +60,21 @@
 	.rt-pad-bot-2 { padding-bottom: 5rem; }
 	.rt-pad-bot-1 { padding-bottom: 5rem; }
 
-
-	/*****************************************************************
-		Menu: Social Media
-	******************************************************************/
-
-	/* 
-	ul#menu-social-media {
+	@keyframes tilt-shaking {
+		0% { transform: rotate(0deg); }
+		10% { transform: rotate(5deg); }
+		20% { transform: rotate(-5deg); }
+		30% { transform: rotate(5deg); }
+		40% { transform: rotate(-5deg); }
+		50% { transform: rotate(5deg); }
+		60% { transform: rotate(0deg); }
+		70% { transform: rotate(5deg); }
+		80% { transform: rotate(0deg); }
+		90% { transform: rotate(-5deg); }
+		100% { transform: rotate(0deg); }
 	}
-		ul#menu-social-media li {
-		}
-			ul#menu-social-media a,
-			ul.contact-info li {
-				position: relative;
-				padding: 0px 0px 10px 45px !important;
-				display: flex;
-				align-items: center;
-			}
-			ul.contact-info li {
-				padding: 0 0 5px 0 !important;
-			}
-				ul#menu-social-media li a::before,
-				ul.contact-info li::before {
-					content: "";
-					position: absolute;
-					width: 26px;
-					height: 18px;
-					left: 0;
-				}
-				li.medium a::before {
-					background: url("images/icon-social-medium-dark.svg") 0 0 / 90% no-repeat;
-				}
-				li.youtube a::before {
-					background: url("images/icon-social-youtube-dark.svg") 0 0 / 90% no-repeat;
-				}
-				li.flickr a::before {
-					background: url("images/icon-social-flickr-dark.svg") 0 0 / 90% no-repeat;
-					height: 28px !important;
-				}
-				ul.contact-info li.location {
-					padding: 0px 0px 10px 25px !important;
-				}
-				li.location::before {
-					background: url("images/icon-location-dark.svg") 0 0 / 64% no-repeat;
-					height: 22px !important;
-				}
 
-				ul#menu-social-media li a::after {
-					content: "/";
-					position: absolute;
-					width: 12px;
-					height: 20px;
-					left: 32px;
-					color: #d9d9d9;
-				}
-	*/
+
 
 
 	/*****************************************************************
@@ -727,7 +690,7 @@
 				margin-bottom: 35px;
 			}
 		#header-hero img.featured {
-			width: 34%;
+			width: 35%;
 		}
 
 		#header-hero .wrapper {
@@ -841,7 +804,7 @@
 						}
 						#nav-primary a:hover {
 							background: var(--nal-primary);
-							color: var(--nal-white);
+							/* color: var(--nal-white); */
 						}
 						#nav-primary > ul > li.menu-item-has-children:hover > a::after,
 						#nav-primary > ul > li.current-menu-item > a::after {
@@ -994,7 +957,7 @@
 					min-height: 225px;
 					overflow: hidden;
 				}
-					.rt-fitness-service img.rt-bg { filter: contrast(200%) blur(2px) grayscale(1); width: 125%; }
+					.rt-fitness-service img.rt-bg { filter: contrast(200%) blur(1px) grayscale(1); width: 125%; }
 					.rt-fitness-service img.rt-icon { width: 65%; filter: drop-shadow(0 0 15px #000); }
 
 					.personal-training-services img {
@@ -1011,6 +974,12 @@
 				.rt-fitness-service > a {
 					display: block
 				}
+					.rt-fitness-service .text-link::before {
+						transition: all 0.3s ease;
+					}
+					.rt-fitness-service:hover .with-arrow::before {
+						right: -30px;
+					}
 
 			.personal-training-services h3 {
 				margin-bottom: 1rem;
