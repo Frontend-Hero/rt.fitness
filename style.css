@@ -960,6 +960,7 @@
 
 	.personal-training-intro {
 		background: url(images/bg-trans.png);
+		padding: 7.5rem
 	}
 		.personal-training-intro .wrapper > h2,
 		.personal-training-testimonials .wrapper > h2 {
@@ -977,10 +978,30 @@
 				text-align: center;
 				text-decoration: none;
 			}
+
+			.rt-fitness-service {
+			}
+				.rt-fitness-service figure {
+					background: #000;
+					border-radius: 12px;
+					background: url(/wp-content/uploads/2024/07/rt-fitness-4-scaled.jpg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
+					padding: 4rem 2.5rem;
+					margin-bottom: 2.5rem;
+					display: flex;
+					justify-content: center;
+					filter: grayscale(1);
+				}
+				.rt-fitness-ct figure {
+					background: url(/wp-content/uploads/2024/07/rt-fitness-3-scaled.jpg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
+				}
+				.rt-fitness-gt figure {
+					background: url(/wp-content/uploads/2024/07/rt-fitness-2-scaled.jpg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
+				}
+
 			.personal-training-services img {
 				display: block;
 				border-radius: 12px;
-				margin-bottom: 2.5rem;
+				width: 75%;
 			}
 			.personal-training-services h3 {
 				margin-bottom: 1rem;
@@ -989,7 +1010,6 @@
 				margin-bottom: 0;
 				font-size: 2rem;
 			}
-
 
 
 	/*****************************************************************
