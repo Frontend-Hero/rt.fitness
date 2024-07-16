@@ -674,6 +674,7 @@
 		background: url(images/bg-dark.jpeg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
 		min-height: 680px;
 		position: relative;
+		overflow: hidden;
 	}
 		#header-hero .content-area {
 			width: 60%;
