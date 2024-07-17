@@ -4,17 +4,32 @@
         
         <div class="grid">
             
-                <div class="accordion-item grid-span-12">
-                    <h3 class="accordion-title">Title</h3>
-                    <div class="accordion-content">
-                        <div class="accordion-content-inner">
-                            <p>Content...</p>
-                        </div>
+            <div class="accordion-item grid-span-12">
+                <h3 class="accordion-title">Title</h3>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Content...</p>
                     </div>
                 </div>
+            </div>
+            <div class="accordion-item grid-span-12">
+                <h3 class="accordion-title">Title</h3>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Content...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item grid-span-12">
+                <h3 class="accordion-title">Title</h3>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Content...</p>
+                    </div>
+                </div>
+            </div>
            
         </div>
-
         
     </div>
 </section>

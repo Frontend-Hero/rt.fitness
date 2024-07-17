@@ -44,10 +44,9 @@
 		</div>
 	</header>
 
-    <?php get_template_part('partials/hero'); ?>
+    <?php 
+    if(is_home()): 
+        get_template_part('partials/hero');
+    endif; ?>
 
     </div>
-	
-	
-	
-	
