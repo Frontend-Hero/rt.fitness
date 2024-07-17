@@ -81,7 +81,7 @@
 	******************************************************************/
 
 	.wp-block-table {
-		margin-bottom: 3rem;
+		margin-bottom: 2.4rem;
 	}
 		.wp-block-table th {
 			color: #fff;
@@ -962,7 +962,7 @@
 					min-height: 225px;
 					overflow: hidden;
 				}
-					.rt-fitness-service img.rt-bg { filter: contrast(200%) blur(1px) grayscale(1); width: 125%; }
+					.rt-fitness-service img.rt-bg { filter: contrast(130%) blur(1px) grayscale(1); width: 125%; }
 					.rt-fitness-service img.rt-icon { width: 65%; filter: drop-shadow(0 0 15px #000); }
 
 					.personal-training-services img {
@@ -1133,17 +1133,17 @@
 			/**
 			* Author heights
 			*/
-			.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 57px; }
-			.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 54px; }
+			.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 59px; }
+			.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 59px; }
 
-			.testimonial-wrapper.author-no-name .testimonial::before { bottom: 97px; }
-			.testimonial-wrapper.author-no-name .testimonial-author { bottom: 92px; }
+			.testimonial-wrapper.author-no-name .testimonial::before { bottom: 101px; }
+			.testimonial-wrapper.author-no-name .testimonial-author { bottom: 98px; }
 
 			.testimonial-wrapper.author-no-name-2 .testimonial::before { bottom: 29px; }
 			.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 27px; }
 
-			.testimonial-wrapper.author-keith .testimonial::before { bottom: 79px; }
-			.testimonial-wrapper.author-keith .testimonial-author { bottom: 79px; }
+			.testimonial-wrapper.author-keith .testimonial::before { bottom: 82px; }
+			.testimonial-wrapper.author-keith .testimonial-author { bottom: 83px; }
 
 
 	/** 
@@ -1256,6 +1256,48 @@
 	.rt-quick-contact {
 		padding: 7.5rem 0;
 	}
+
+
+	/*****************************************************************
+		Block: CTA
+	******************************************************************/
+
+	#rt-cta {
+		background: var(--rt-color-primary);
+		margin: 3.5rem 0 -6rem 0;
+	}	
+		#rt-cta * {
+			color: #fff;
+			text-decoration: none;
+		}
+		#rt-cta a {
+			padding: 7.5rem 0;
+			display: block;
+			position: relative;
+		}
+			#rt-cta a:hover .wrapper::after {
+				right: 15px;
+			}
+		#rt-cta .wrapper::after {
+			transition: all 0.3s ease;
+			position: absolute;
+			background: blue;
+			width: 100px;
+			height: 100px;
+			right: 45px;
+			top: 50%;
+			transform: translateY(-50%);
+			content: "";
+			background: url("images/icon-arrow-right-dark-red.svg;") 0 center / 100px no-repeat;
+		}
+		#rt-cta h3 {
+			width: 60%;
+		}
+		#rt-cta p {
+			margin: 0;
+			width: 55%;
+		}
+
 
 	/*****************************************************************
 		Archive: Blog etc
