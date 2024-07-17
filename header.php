@@ -21,28 +21,28 @@
 
     <div id="header-hero">
 	
-	<header id="primary-header">
-		<div class="wrapper">
-			<div class="grid">			
-                <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
-                </a>
-                <div id="nav-wrapper">
-                    <?php 
-                    get_template_part('partials/nav', 'contact');
-                    get_template_part('partials/nav', 'primary'); ?>
-                </div>
-                
-				<!--
-                <div id="hamburger" class="hamburger hamburger--slider js-hamburger">
-                    <div class="hamburger-box">
-                        <div class="hamburger-inner"></div>
+        <header id="primary-header">
+            <div class="wrapper">
+                <div class="grid">			
+                    <a class="logo grid-span-3" href="<?php echo home_url(); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/rt-fitness-logo.svg">
+                    </a>
+                    <div id="nav-wrapper">
+                        <?php 
+                        get_template_part('partials/nav', 'contact');
+                        get_template_part('partials/nav', 'primary'); ?>
                     </div>
+                    
+                    <!--
+                    <div id="hamburger" class="hamburger hamburger--slider js-hamburger">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                    -->
                 </div>
-                -->
-			</div>
-		</div>
-	</header>
+            </div>
+        </header>
 
     <?php 
     if(is_home()): 

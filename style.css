@@ -15,12 +15,13 @@
 		--rt-color-primary: #fd0002;
 		--rt-color-darker: #383838;
 		--rt-color-dark: #363636;
+
+		--rt-color-grey-lighter: #FAFAFA;
 		
 		/* --rt-accent-light: #ffede0;
 		
 		--rt-grey-dark: #7c7c7c;
-		--rt-grey-light: #eaeaea;
-		--rt-grey-lighter: #fafafa; */
+		--rt-grey-light: #eaeaea; */
 		--rt-color-white: #fff;
 	}
 
@@ -75,50 +76,21 @@
 	}
 
 
-
-
 	/*****************************************************************
-		Block: Yoast TOC
-	******************************************************************/
-	/* 
-	.yoast-table-of-contents > ul {
-		border-left: 1px solid var(--nal-primary);
-		margin-bottom: 3.00001rem;
-	}
-		.yoast-table-of-contents li {
-			font-size: 1.6rem !important;
-			line-height: 2.2rem !important;
-			padding-left: 32px !important
-		}
-		.yoast-table-of-contents ul li::before,
-		.yoast-table-of-contents ul li::after {
-			content: none !important;
-		}
-			.yoast-table-of-contents a {
-				text-decoration: none;
-			}
-			.yoast-table-of-contents a:hover {
-				text-decoration: underline;
-			}
-			
-		.entry .yoast-table-of-contents ul ul {
-			margin: 16px 0 19px 0 !important;
-		}
-			*/
-
-
-	/*****************************************************************
-		Block: Table
+		Block: WP Table etc
 	******************************************************************/
 
 	.wp-block-table {
 		margin-bottom: 3rem;
 	}
 		.wp-block-table th {
-			background-color: var(--nal-secondary-dark);
 			color: #fff;
 			border: 1px solid #000;
 		}
+
+	.wp-block-image {
+		margin-bottom: 3.5rem;
+	}
 
 
 	/*****************************************************************
@@ -363,9 +335,9 @@
 	.entry ol li { 
 		font-size: 2.2rem;
 		margin-bottom: 2rem;
-		line-height: 2.8rem;
+		line-height: 3rem;
 		font-weight: 400;
-		color: var(--nal-secondary-dark);
+		color: var(--rt-color-dark);
 		letter-spacing: 0.15px;
 	}
 	blockquote {
@@ -410,11 +382,9 @@
 		}
 
 	/* lists */
-	.entry ul:not(.menu-social-media),
-	.entry ol,
-	.learndash-wrapper ul,
-	.learndash-wrapper ol {
-		margin: -2px 0px 32px 0px !important;
+	.entry ul,
+	.entry ol {
+		margin: 30px 0px 32px 0px;
 	} 
 	.entry ul ul {
 		margin-top: 16px !important;
@@ -426,20 +396,15 @@
 		margin-left: 10px;
 	}
 		.entry ul li,
-		.entry ol li,
-		.learndash-wrapper ol li,
-		.learndash-wrapper ul li {
+		.entry ol li {
 			position: relative;
 			padding: 0px 0px 0px 52px;
-			font-size: 1.8rem;
 			margin-bottom: 15px; 
-			line-height: 2.6rem;
-			color: var(--nal-secondary-dark);
+			color: var(--rt-color-dark);
 			font-weight: 400;
 		} 
 			.entry ul li:after,
-			.entry ul li:before,
-			.learndash-wrapper ul li:after {
+			.entry ul li:before {				
 				display: block;
 				background: #7C7C7C;
 				width: 7px;
@@ -450,21 +415,6 @@
 				left: 24px;
 				content: '';
 			}
-
-			.entry #rank-math-toc ul li { 
-				padding-left: 0;
-			}
-			.entry #rank-math-toc ul li:before { 
-				content: none;
-			}
-
-	.entry ol.nal-list-primary li, 
-	.entry ul.nal-list-primary li {
-		color: var(--nal-primary);
-	}
-	.entry ul.nal-list-primary li::after {
-		background-color: var(--nal-primary);
-	}
 
 	.entry ol { 
 		margin-bottom: 8px;
@@ -584,12 +534,12 @@
 		font-size: 62.5%;
 	}
 	body {
-		background: var(--nal-white);
+		background: #fff;
 		font-family: "futura-pt", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		font-size: 1.6rem;
-		color: var(--nal-secondary-dark);
+		color: var(--rt-color-darker);
 	}
 
 
@@ -604,6 +554,51 @@
 		.rt-about-intro img {
 			border-radius: 12px;
 		}
+
+
+	/*****************************************************************
+		Block: Facts
+	******************************************************************/
+
+	.rt-facts {
+		border-radius: 12px;
+	}
+		.rt-facts ul {
+			margin: 3.2rem 0 !important;
+			align-items: center;
+    		justify-items: center;
+			grid-gap: 0;
+			background: url("images/bg-trans.png") center center / 225% no-repeat;
+			border-radius: 12px;
+			width: 100%;
+		}
+			.rt-facts li {
+				margin: 0 !important;
+				border-right: 5px solid #fff;
+				border-bottom: 5px solid #fff;
+				text-align: center;
+				padding: 3rem !important;
+				grid-column: span 4;
+				min-height: 210px;
+				width: 100%;
+				font-size: 2rem !important;
+				line-height: 2.6rem !important;
+			}
+			.rt-facts li:nth-child(3) { border-right: 0px none; }
+			.rt-facts li:nth-child(4) { border-bottom: 0px none; }
+			.rt-facts li:nth-child(5) { border-bottom: 0px none; }
+			.rt-facts li:nth-child(6) { border-bottom: 0px none; border-right: 0px none; }
+
+			.rt-facts li::before,
+			.rt-facts li::after {
+				content: none !important
+			}
+
+			.rt-facts span.icon {
+				display: block;
+				font-size: 4.4rem;
+				margin: 2rem 0;
+			}
 
 
 	/*****************************************************************
@@ -674,10 +669,11 @@
 		background: url(images/bg-dark.jpeg) top center / cover no-repeat rgba(0, 0, 0, 0.912);
 		position: relative;
 		overflow: hidden;
+		margin-bottom: 5rem;
 	}
 	body.home #header-hero {
-		border: 3px solid red;
 		min-height: 680px;
+		margin-bottom: 0;
 	}
 
 
@@ -760,7 +756,6 @@
 	* Primary Header
 	*/
 	#primary-header {
-		background: var(--nal-white);
 		padding: 35px 0px;
 		width: 100%;
 		position: relative;
@@ -960,7 +955,6 @@
 					position: relative;
 					background: #000;
 					border-radius: 12px;
-					/* background: url(/wp-content/uploads/2024/07/rt-fitness-4-scaled.jpg) top center / cover no-repeat rgba(0, 0, 0, 0.912); */
 					margin-bottom: 2.5rem;
 					display: flex;
 					justify-content: center;
@@ -1332,10 +1326,15 @@
 	******************************************************************/
 
 	#footer-primary {
-		background: #FAFAFA;
+		background: var(--rt-color-grey-lighter);
 		padding: 3.6rem 0;
 		width: 100%;
+		margin-top: 6rem;
 	}
+		body.home #footer-primary {
+			margin-top: 0;
+		}
+
 		#footer-primary * {
 			color: #696969;
 		}
