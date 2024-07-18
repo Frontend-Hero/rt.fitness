@@ -49,4 +49,12 @@
         get_template_part('partials/hero');
     endif; ?>
 
+    <?php if(has_post_thumbnail()): ?>
+        <div class="wrapper">
+        <div id="featured-image">
+            <?php the_post_thumbnail(); ?> 
+        </div>
+        </div>
+    <?php endif; ?>
+
     </div>

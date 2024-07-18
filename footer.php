@@ -2,7 +2,7 @@
 		<div class="wrapper">
 			<div class="grid">
 				<?php // dynamic_sidebar('footer-area'); ?>
-				<div class="grid-span-1">
+				<div class="grid-span-nah">
 					<img class="rt-logo" src="/wp-content/themes/rt.fitness/images/rt-fitness-logo-alt.svg">
 				</div>
 				<div class="grid-span-8">

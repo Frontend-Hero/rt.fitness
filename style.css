@@ -183,6 +183,7 @@
 		.grid-span-4 { grid-column: span 4; }
 		.grid-span-3 { grid-column: span 3; }
 		.grid-span-2 { grid-column: span 2; }
+		.grid-span-1 { grid-column: span 12; }
 
 
 	.grid-3 {
@@ -403,7 +404,6 @@
 			color: var(--rt-color-dark);
 			font-weight: 400;
 		} 
-			.entry ul li:after,
 			.entry ul li:before {				
 				display: block;
 				background: #7C7C7C;
@@ -542,6 +542,17 @@
 		color: var(--rt-color-darker);
 	}
 
+	.pull-quote {
+		width: 280px;
+		float: right;
+		background: var(--rt-color-grey-lighter);
+		padding: 2rem;
+		margin-left: 5rem;
+		margin-right: 0px;
+		font-style: italic;
+		border-radius: 12px;
+	}
+
 
 	/*****************************************************************
 		Block: About intro
@@ -671,11 +682,29 @@
 		overflow: hidden;
 		margin-bottom: 5rem;
 	}
-	body.home #header-hero {
+	body.home #header-hero,
+	body.page-template-hero-blocks #header-hero {
 		min-height: 680px;
 		margin-bottom: 0;
 	}
+	body.page-template-hero-blocks #header-hero {
+		margin-bottom: 5rem;
+	}
 
+	/** 
+	 * Hero Blocks Template
+	 */
+	#featured-image {
+		/* min-height: 600px; */
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		margin: 1rem 0 5rem 0;
+		position: relative;
+	}
+		#featured-image img {
+			border-radius: 12px;
+		}
 
 		#header-hero .content-area {
 			width: 60%;
@@ -1265,7 +1294,11 @@
 	#rt-cta {
 		background: var(--rt-color-primary);
 		margin: 3.5rem 0 -6rem 0;
-	}	
+		transition: all 0.3s ease;
+	}
+	#rt-cta:hover {
+		background: #e00002;
+	}
 		#rt-cta * {
 			color: #fff;
 			text-decoration: none;
@@ -1297,6 +1330,47 @@
 			margin: 0;
 			width: 55%;
 		}
+
+
+	/*****************************************************************
+		Block: List
+	******************************************************************/
+
+	.rt-list {
+		row-gap: 25px;
+		margin-top: 6rem !important;
+	}
+		.rt-list li {
+			padding-left: 72px !important;
+			font-size: 1.9rem !important;
+			line-height: 2.8rem !important;
+		}
+		.rt-list li::before {
+			background: url("images/icon-tick.svg") 0 0px / 100% no-repeat !important;
+			width: 35px !important;
+			height: 35px !important;
+			left: 0 !important
+		}
+
+
+	/*****************************************************************
+		Block: Services Page List
+	******************************************************************/
+
+	.rt-services-cols {
+		background: url(images/bg-trans.png);
+    	padding: 7.5rem;
+	}
+		 .rt-services-cols h3 {
+			margin-bottom: 6rem;
+		 }
+		.rt-services-cols .wp-block-column {
+			background: #fff;
+			border-radius: 12px;
+			text-align: center;
+			padding: 2rem;
+		}
+
 
 
 	/*****************************************************************
@@ -1386,6 +1460,7 @@
 		}
 		#footer-primary .rt-logo {
 			width: 100%;
+			margin-top: 7px;
 		}
 		#footer-primary p {
 			font-size: 1.7rem;
