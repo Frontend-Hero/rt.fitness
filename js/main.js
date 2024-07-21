@@ -1,5 +1,13 @@
 jQuery(document).ready(function() {
 
+    /** 
+     * Confetti
+     */
+     // placeholder....
+
+    /** 
+     * Testimonials
+     */
     jQuery('.testimonials-wrapper').slick({
         centerMode: true,
         centerPadding: '60px',
