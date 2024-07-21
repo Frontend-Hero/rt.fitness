@@ -1049,7 +1049,7 @@
 		.wrapper-grad::before,
 		.wrapper-grad::after {
 			position: absolute;
-			width: 190px;
+			width: 200px;
 			height: 100%;
 			content: "";
 			bottom: 0px;
