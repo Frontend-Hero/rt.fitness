@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
         adaptiveHeight: true,
         initialSlide: 2,
         autoplay: true,
-        autoplaySpeed: 53000,
+        autoplaySpeed: 4000,
         arrows: false
 
         /* responsive: [
