@@ -6,7 +6,7 @@
             <p>Aliquam risus odio, eleifend vitae facilisis 
             quis, facilisis non risus ut nec magna 
             scelerisque, pharetra quam non.</p>
-            <a class="btn with-arrow" href="">Free 30 Min Consultation</a>
+            <a class="btn with-arrow" href="/contact/">Free 30 Min Consultation</a>
         </div>
         <img class="featured" src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
     </div>

@@ -61,6 +61,8 @@
 	.rt-pad-bot-2 { padding-bottom: 5rem; }
 	.rt-pad-bot-1 { padding-bottom: 5rem; }
 
+	.rt-mar-top--2 { margin-top: -2rem; }
+
 	@keyframes tilt-shaking {
 		0% { transform: rotate(0deg); }
 		10% { transform: rotate(5deg); }
@@ -616,9 +618,18 @@
 		Block: Quick contact
 	******************************************************************/
 
+	/** CONTACT **/
+	body.page-id-17 .rt-quick-contact {
+		padding-top: 2.5rem;
+	}
+
 	.rt-quick-contact {
 		display: block;
 	}
+	.rt-quick-contact .wp-block-group__inner-container {
+		padding: 0;
+	}
+
 		.rt-quick-contact .wrapper > p {
 			margin-bottom: 7rem;
 		}
@@ -833,6 +844,7 @@
 						display: block;
 						margin-right: 0;
 						position: relative;
+						transition: all 0.3s ease;
 					}
 					#nav-primary li::after {
 						transition: all 0.3s ease;

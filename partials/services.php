@@ -1,7 +1,7 @@
 <section class="personal-training-intro">
     <div class="wrapper">
-    <h2 class="rt-text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">My Personal Training Services</h2>
-    <p class="rt-text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">In auctor gravida semper. Sedsagittis dui leo, vel gravida. 
+    <h2 class="rt-text-center">My Personal Training Services</h2>
+    <p class="rt-text-center">In auctor gravida semper. Sedsagittis dui leo, vel gravida. 
     Nisl tristique in. Vestibulum efficitur sapien non massa.</p>
 
     <div class="personal-training-services grid">

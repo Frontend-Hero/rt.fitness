@@ -45,7 +45,7 @@
         </header>
 
     <?php 
-    if(is_home()): 
+    if(is_page('26')): 
         get_template_part('partials/hero');
     endif; ?>
 
