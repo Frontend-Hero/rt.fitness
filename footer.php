@@ -24,6 +24,8 @@
 </div>
 <!-- / wrapper -->
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz8JeqPx4ai3m72nIPjPBpzRjX2Ivq4v4&loading=async&callback=initMap"></script>
+
 <script>
   AOS.init();
 </script>
