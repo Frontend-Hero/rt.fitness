@@ -22,7 +22,7 @@
 	</footer>
 
 </div>
-<!-- / wrapper -->
+<!-- / wrapper --> 
 
 <script>
   AOS.init();
