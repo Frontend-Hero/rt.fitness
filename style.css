@@ -307,7 +307,7 @@
 		width: 100%;
 		max-width: 960px !important;
 		margin: 0 auto;
-		padding: 0 15px;
+		padding: 0 20px;
 	}
 
 
@@ -810,6 +810,15 @@
 			display: none;
 			margin-top: 6px;
 		}
+		.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before,
+		
+		.hamburger.is-active .hamburger-inner, 
+		.hamburger.is-active .hamburger-inner:after, 
+		.hamburger.is-active .hamburger-inner:before {
+			background-color: #fff;
+		}
+
+
 
 		/** 
 		* Logo
@@ -1418,8 +1427,6 @@
 			font-weight: 500;
 		}
 
-
-
 	/*****************************************************************
 		Single
 	******************************************************************/
@@ -1500,3 +1507,59 @@
 			.footer-links li {
 				margin-right: 15px;
 			}
+
+
+	/*****************************************************************
+		Media Quieres
+	******************************************************************/
+
+	@media only screen and (max-width: 900px) {
+
+		#contact-menu,
+		#hero,
+		.personal-training-intro,
+		.rt-about-intro,
+		.personal-training-testimonials,
+		.personal-training-faq,
+		.rt-quick-contact,
+		footer {
+			display: none;
+		}
+
+		#nav-wrapper {
+			grid-column: 10 span;
+		}
+
+		.logo {
+			grid-column: 2 span;
+			margin-left: 7px;
+		}
+		.logo img {
+			width: 75px;
+		}
+
+	}
+
+	@media only screen and (max-width: 750px) {
+
+		#primary-header .grid {
+			display: block;
+		}
+		#nav-primary {
+			display: none;
+		}
+		#nav-primary.active {
+			border: 2px solid red;
+			position: absolute;
+			top: 10px;
+			width: 100%;
+			left: 0;
+		}
+
+		.hamburger,
+		#nav-primary.active {
+			display: block;
+		}
+
+	}
+

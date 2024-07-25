@@ -1,5 +1,26 @@
 jQuery(document).ready(function() {
 
+	/*********************************************************
+	* Hamburger 
+	**********************************************************/
+
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('nav-primary');
+
+    if (ham && menu) {
+        ham.addEventListener('click', function() {
+            console.log('Hamburger menu clicked');
+            menu.classList.toggle('active');
+			ham.classList.toggle('is-active');
+			body.classList.toggle("nav-is-open");
+        });
+    } else {
+        console.error('Hamburger or menu element not found');
+    }
+
+
+
+
     /** 
      * Confetti
      */

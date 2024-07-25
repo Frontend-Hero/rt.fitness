@@ -1,3 +1,11 @@
+<!--
+  ___ _____   ___ ___ _____ _  _ ___ ___ ___ 
+ | _ \_   _| | __|_ _|_   _| \| | __/ __/ __|
+ |   / | |   | _| | |  | | | .` | _|\__ \__ \
+ |_|_\ |_|   |_| |___| |_| |_|\_|___|___/___/
+                                             
+-->
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -33,13 +41,12 @@
                         get_template_part('partials/nav', 'primary'); ?>
                     </div>
                     
-                    <!--
                     <div id="hamburger" class="hamburger hamburger--slider js-hamburger">
                         <div class="hamburger-box">
                             <div class="hamburger-inner"></div>
                         </div>
                     </div>
-                    -->
+                    
                 </div>
             </div>
         </header>
