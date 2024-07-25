@@ -2,8 +2,7 @@
     <div class="wrapper-grad">
         <div class="wrapper">
             <h2 class="rt-text-center">RT Fitness Testimonials</h2>
-            <p class="rt-text-center">In auctor gravida semper. Sedsagittis dui leo, vel gravida. 
-            Nisl tristique in. Vestibulum efficitur sapien non massa.</p>
+            <p class="rt-text-center">See what my clients are saying! Discover how RT Fitness has transformed their lives—join us today and start your own journey to a fitter, healthier, and stronger you!</p>
 
             <div class="testimonials-wrapper">
 

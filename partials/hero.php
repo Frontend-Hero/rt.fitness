@@ -3,9 +3,9 @@
         <div class="content-area">
             <h1>PERSONAL TRAINER 
             NEWPORT, SHROPSHIRE</h1>
-            <p>Aliquam risus odio, eleifend vitae facilisis 
-            quis, facilisis non risus ut nec magna 
-            scelerisque, pharetra quam non.</p>
+            <p>Looking for a personal trainer in Newport, Shropshire? 
+            I offer a FREE consultation to understand your unique fitness goals 
+            and motivations.</p>
             <a class="btn with-arrow" href="/contact/">Free 30 Min Consultation</a>
         </div>
         <img class="featured" src="/wp-content/uploads/2024/07/rich-turner-profile-pic.png" alt="">
