@@ -131,7 +131,7 @@
 		wp_enqueue_script('slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js');
 		wp_enqueue_script('aos', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js');
 
-		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js?v=9hdfg5' );
+		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js?v=dsds' );
 	}
 
 	add_action( 'wp_enqueue_scripts', 'feh_scripts' );

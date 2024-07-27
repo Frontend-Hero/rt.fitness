@@ -274,6 +274,15 @@
 		box-sizing: border-box;
 	}
 
+	#rt-overlay {
+		background: red;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		position: fixed;
+		z-index: 1;
+	}
+
 	/* ul {
 		
 	}
@@ -693,6 +702,9 @@
 		overflow: hidden;
 		margin-bottom: 5rem;
 	}
+		#hero {
+			transition: all 0.3s ease;
+		}
 	body.home #header-hero,
 	body.page-template-hero-blocks #header-hero {
 		min-height: 680px;
@@ -701,6 +713,10 @@
 	body.page-template-hero-blocks #header-hero {
 		margin-bottom: 5rem;
 	}
+		body.nav-is-open #hero {
+			filter: blur(7px);
+			opacity: 0.35;
+		}
 
 	/** 
 	 * Hero Blocks Template
@@ -991,7 +1007,7 @@
 
 	.personal-training-intro {
 		background: url(images/bg-trans.png);
-		padding: 7.5rem
+		padding: 7.5rem 0;
 	}
 		.personal-training-intro .wrapper > h2,
 		.personal-training-testimonials .wrapper > h2 {
@@ -1513,11 +1529,36 @@
 		Media Quieres
 	******************************************************************/
 
+	@media only screen and (max-width: 950px) {
+		#header-hero img.featured {
+			width: 315px;
+		}
+		#header-hero .btn {
+			margin-left: -35px;
+		}
+		#social-follow { display: none; }
+
+		.rt-fitness-service img.rt-bg {
+			width: 150%;
+		}
+
+		#header-hero .content-area {
+			width: 80%;
+		}
+		#header-hero .content-area p {
+			padding-right: 0;
+		}
+		#header-hero .rt-flex {
+			justify-content: center;
+    		text-align: center;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
 	@media only screen and (max-width: 900px) {
 
 		#contact-menu,
-		#hero,
-		.personal-training-intro,
 		.rt-about-intro,
 		.personal-training-testimonials,
 		.personal-training-faq,
@@ -1540,25 +1581,59 @@
 
 	}
 
+	@media only screen and (max-width: 800px) {
+
+		.rt-fitness-service img.rt-bg {
+			width: 170%;
+		}
+
+	}
+
 	@media only screen and (max-width: 750px) {
 
 		#primary-header .grid {
 			display: block;
 		}
-		#nav-primary {
-			display: none;
-		}
+		#nav-primary { display: none; }
+
 		#nav-primary.active {
-			border: 2px solid red;
 			position: absolute;
-			top: 10px;
+			top: 55px;
 			width: 100%;
 			left: 0;
 		}
+			#nav-primary.active ul {
+				flex-direction: column;
+				align-items: center;
+			}
+				#nav-primary.active a {
+					padding: 1.5rem 5.5rem;
+				}
+				#nav-primary .current-menu-item::after, 
+				#nav-primary li:hover::after {
+					background: url("images/active-nav-item.svg") center center / 60% no-repeat;
+					bottom: 9px;
+					width: 70%;
+					left: 30px;
+				}
+
 
 		.hamburger,
 		#nav-primary.active {
 			display: block;
+		}
+
+		#header-hero .content-area h1 {
+			font-size: 3.2rem; 
+			line-height: 4.2rem;
+		}
+
+	}
+
+	@media only screen and (max-width: 550px) {
+
+		#header-hero .content-area {
+			width: 92%;
 		}
 
 	}

@@ -6,6 +6,7 @@ jQuery(document).ready(function() {
 
     const ham = document.getElementById('hamburger');
     const menu = document.getElementById('nav-primary');
+	const body = document.body;
 
     if (ham && menu) {
         ham.addEventListener('click', function() {
