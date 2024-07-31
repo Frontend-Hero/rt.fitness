@@ -10,7 +10,7 @@ get_header(); ?>
         margin: 0 auto 0 auto;
         border: 1px solid #ccc;
         width: 100%;
-        height: 1000px;
+        height: 975px;
         align-self: center;
     }
     </style>
@@ -33,7 +33,7 @@ get_header(); ?>
                 <?php endwhile; ?> 
                 </div>
 
-                <?php // get_sidebar(); ?>
+                <?php get_sidebar(); ?>
 
             </div>
             <!-- / grid -->

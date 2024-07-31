@@ -1490,6 +1490,28 @@
 		Page: Contact
 	******************************************************************/
 
+	body.page-id-17 #sidebar {
+		display: none;
+		margin-top: 90px;
+	}
+		body.page-id-17 #sidebar #contact-menu {
+		}
+			body.page-id-17 #sidebar #contact-menu ul {
+				flex-direction: column;
+			}
+			body.page-id-17 #sidebar #contact-menu li:last-child {
+				margin: 8px 0 0 0; 
+			}
+			body.page-id-17 #sidebar #contact-menu a {
+				color: var(--rt-color-dark);
+				font-weight: normal;
+			}
+
+
+
+
+
+
 	body.page-id-17 h1 {
 		display: none;
 	}
@@ -1500,7 +1522,7 @@
 			margin: 20px 0 0 0;
 		}
 		body.page-id-17 .grid-cf {
-			top: -850px;
+			top: -800px;
 			position: absolute;
 			width: 55%;
 			background: #fff;
@@ -1600,12 +1622,40 @@
 			flex-direction: column;
 			align-items: center;
 		}
+
+		body.page-id-17 #google-map {
+			border: 2px solid red;
+			height: 450px;
+			display: none;
+		}
+		body.page-id-17 .grid-cf {
+			position: relative;
+			top: auto;
+			width: 100%;
+			column-gap: 50px;
+		}
+		body.page-id-17 .grid-cf > div.grid-span-12 {
+			grid-column: span 8;
+		}
+		body.page-id-17 #sidebar {
+			grid-column: span 4;
+			display: block
+		}
+
+		body.page-id-17 .wp-block-group__inner-container {
+			padding: 0;
+		}
+
 	}
 
 	@media only screen and (max-width: 900px) {
 
-		#contact-menu {
+		#header-hero #contact-menu {
 			display: none;
+		}
+
+		body.page-id-161 .grid-cf {
+			gap: 0;
 		}
 
 		#nav-wrapper {

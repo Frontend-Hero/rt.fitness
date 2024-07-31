@@ -292,7 +292,20 @@ function initMap()
 		// bounds.extend(new google.maps.LatLng(markers[i]['lat'], markers[i]['lng']));		
 		// map.fitBounds(bounds); 
 
-	
+	// Function to center the map on a specific marker at a given breakpoint
+    /* function centerMapOnMarker(marker, breakpoint) {
+        if (window.innerWidth < breakpoint) {
+            map.setCenter(marker.getPosition());
+        }
+    }
+
+    // Initial check
+    centerMapOnMarker(marker, 500);
+
+    // Listen for window resize events
+    window.addEventListener('resize', function() {
+        centerMapOnMarker(marker, 500);
+    }); */
 
    }	
 
