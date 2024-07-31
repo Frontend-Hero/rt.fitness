@@ -1288,6 +1288,7 @@
             min-height: 5rem;
             display: flex;
             align-items: center;
+			padding-right: 55px;
 			font-weight: 700;
 			text-transform: capitalize;
         }
@@ -1539,7 +1540,7 @@
 		#social-follow { display: none; }
 
 		.rt-fitness-service img.rt-bg {
-			width: 150%;
+			width: 170%;
 		}
 
 		#header-hero .content-area {
@@ -1559,11 +1560,7 @@
 	@media only screen and (max-width: 900px) {
 
 		#contact-menu,
-		.rt-about-intro,
-		.personal-training-testimonials,
-		.personal-training-faq,
-		.rt-quick-contact,
-		footer {
+		#footer-primary {
 			display: none;
 		}
 
@@ -1581,11 +1578,109 @@
 
 	}
 
+	@media only screen and (max-width: 850px) {
+
+		.wrapper-grad::before, 
+		.wrapper-grad::after {
+			width: 100px;
+		}
+
+	}
+
+
 	@media only screen and (max-width: 800px) {
 
-		.rt-fitness-service img.rt-bg {
-			width: 170%;
+		.personal-training-faq .grid {
+			gap: 0;
 		}
+
+		.personal-training-services {
+			gap: 0;
+		}
+			.personal-training-services a {
+				display: flex;
+				flex-direction: column;
+				align-items: center
+			}
+		.rt-fitness-service {
+			margin-bottom: 2.5rem;
+		}
+		.personal-training-intro {
+			padding-bottom: 5rem;
+		}
+		.rt-fitness-service figure {
+			width: 225px
+		}
+		.personal-training-services img {
+			max-width: 200%;
+		}
+		.rt-fitness-service img.rt-bg {
+			width: 200%;
+		}
+		.rt-fitness-service:hover img.rt-bg {
+			width: auto !important;
+		}
+
+		.rt-about-intro * {
+			text-align: center;
+		}
+		.rt-about-intro .grid-span-6:first-child {
+			padding: 0 5%;
+		}
+		.rt-about-intro .grid {
+			grid-template-columns: 1fr;
+		}
+
+		.personal-training-services .grid-span-4 {
+			grid-column: span 12;
+			padding: 0 12%
+		}
+
+		.testimonial-wrapper {
+			opacity: 0;
+		}
+		.wrapper-grad::before, 
+		.wrapper-grad::after {
+			width: 0px;
+		}
+		.testimonial-wrapper {
+			transform: none
+		}
+		.testimonial-wrapper blockquote {
+			transform: none;
+			margin: auto
+		}
+		span.indent-text {
+			margin: auto;
+			display: inline;
+		}
+		.personal-training-testimonials .wrapper > p {
+			/* margin-bottom: 0; */
+		}
+		.testimonial::before {
+			left: auto
+		}
+		.testimonial-wrapper.author-keith .testimonial::before { bottom: 165px; }
+		.testimonial-wrapper.author-keith .testimonial-author { bottom: 167px; }
+
+		.testimonial-wrapper.author-no-name .testimonial::before { bottom: 203px; }
+		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 206px; }
+
+		.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 119px; }
+		.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 121px; }
+
+		.slick-track .slick-slide {
+			align-items: flex-start;
+		}
+		.testimonial-wrapper .testimonial-author {
+			left: auto;
+			margin-left: 66px
+		}
+		.wrapper-grad {
+			padding: 4.5rem 0;
+		}
+
+
 
 	}
 
@@ -1630,11 +1725,42 @@
 
 	}
 
+	@media only screen and (max-width: 700px) {
+
+		.testimonial-wrapper {
+			max-width: 425px;
+		}
+		.testimonial-wrapper.author-keith .testimonial::before { bottom: 135px; }
+		.testimonial-wrapper.author-keith .testimonial-author { bottom: 141px; }
+
+		.testimonial-wrapper.author-no-name .testimonial::before { bottom: 233px; }
+		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 237px; }
+
+		.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 32px; }
+
+		.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 59px; }
+		.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 65px; }
+
+	}
+
+
 	@media only screen and (max-width: 550px) {
 
 		#header-hero .content-area {
 			width: 92%;
 		}
+		.testimonial-wrapper {
+			max-width: 350px;
+		}
+		.testimonial-wrapper.author-keith .testimonial::before { bottom: 165px; }
+		.testimonial-wrapper.author-keith .testimonial-author { bottom: 167px; }
+
+		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 232px; }
+
+		.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 32px; }
+
+		.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 89px; }
+		.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 92px; }
 
 	}
 

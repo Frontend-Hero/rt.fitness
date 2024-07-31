@@ -19,7 +19,6 @@ jQuery(document).ready(function() {
         console.error('Hamburger or menu element not found');
     }
 
-
     /** 
      * Confetti
      */
@@ -37,28 +36,18 @@ jQuery(document).ready(function() {
         initialSlide: 2,
         autoplay: true,
         autoplaySpeed: 4000,
-        arrows: false
+        arrows: false,
 
-        /* responsive: [
+        responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 800,
             settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
+				autoplay: false,
+				slidesToShow: 1,
+				adaptiveHeight: true
             }
         }
-        ] */
+		]
     });
 
 });

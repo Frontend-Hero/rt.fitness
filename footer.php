@@ -30,34 +30,6 @@
   AOS.init();
 </script>
 
-<script>
-document.getElementById('gform_1').addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the form from submitting the traditional way
-  
-  // Display confetti
-  confetti({
-    particleCount: 100,
-    spread: 70,
-    origin: { y: 0.6 },
-    colors: ['#ff0000', '#000000']
-  });
-
-  // Optionally, you can add further logic here, like sending the form data via AJAX.
-  
-  // Example of form data processing
-  const name = document.getElementById('gform_1').value;
-  console.log(`Form submitted with name: ${name}`);
-
-  // Clear the form after submission
-  event.target.reset();
-});
-
-// Add the script to include confetti library
-var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js';
-document.head.appendChild(script);
-</script>
-
 <?php wp_footer(); ?> 
 
 </body>
