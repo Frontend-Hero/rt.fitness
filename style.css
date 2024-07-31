@@ -1821,8 +1821,8 @@
 		#nav-primary { display: none; }
 
 		#nav-primary.active {
-			position: absolute;
-			top: 55px;
+			position: fixed;
+			top: 200px;
 			width: 100%;
 			left: 0;
 		}

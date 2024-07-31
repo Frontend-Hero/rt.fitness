@@ -6,7 +6,7 @@
 
     <div class="personal-training-services grid">
         <div class="rt-fitness-service rt-fitness-pt grid-span-4">
-            <a href="">
+            <a href="/services/">
                 <figure>
                     <img class="rt-bg" src="/wp-content/uploads/2024/07/rt-fitness-4-scaled.jpg" alt="">
                     <img class="rt-icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-personal-training-light.svg" alt="">
@@ -17,7 +17,7 @@
             </a>
         </div>
         <div class="rt-fitness-service rt-fitness-ct grid-span-4">
-            <a href="">
+            <a href="/services/">
                 <figure>
                     <img class="rt-bg" src="/wp-content/uploads/2024/07/rt-fitness-5-scaled.jpg" alt="">
                     <img class="rt-icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-couple-training-light.svg" alt="">
@@ -28,7 +28,7 @@
             </a>
         </div>
         <div class="rt-fitness-service rt-fitness-gt grid-span-4">
-            <a href="">
+            <a href="/services/">
                 <figure>
                     <img class="rt-bg" src="/wp-content/uploads/2024/07/rt-fitness-2-scaled.jpg" alt="">
                     <img class="rt-icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-group-training-light.svg" alt="">

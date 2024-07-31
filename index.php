@@ -2,12 +2,13 @@
 		
     <div id="main-area">
 
-        <?php // get_template_part('partials/quick-contact'); ?>
-
         <div class="wrapper">
         
             <div class="grid">
                 <div class="grid-span-12">
+
+                <h1>Blog</h1>
+
                 <?php while(have_posts()): the_post(); ?> 
 
                     <div <?php post_class(); ?>>
@@ -21,7 +22,7 @@
                         <?php endif; ?>
 
                         <div class="content-area excerpt">
-                            <h1><?php the_title(); ?></h1>
+                            <h2><?php the_title(); ?></h2>
                             <div class="entry">
                                 <?php the_content(); ?>
                             </div>

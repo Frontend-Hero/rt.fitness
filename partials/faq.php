@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="accordion-item grid-span-12">
+            <!--<div class="accordion-item grid-span-12">
                 <h3 class="accordion-title">How will you tailor the program to meet my specific needs and goals?</h3>
                 <div class="accordion-content">
                     <div class="accordion-content-inner">
@@ -111,7 +111,7 @@
                         <p>Content...</p>
                     </div>
                 </div>
-            </div>
+            </div>-->
            
         </div>
         
