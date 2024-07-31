@@ -28,6 +28,8 @@
 <body <?php body_class(); ?>>
 
     <div id="header-hero">
+
+    <div id="rt-overlay"></div>
 	
         <header id="primary-header">
             <div class="wrapper">

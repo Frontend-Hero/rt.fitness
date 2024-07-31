@@ -2,47 +2,41 @@
 		
     <div id="main-area">
 
-        <?php get_template_part('partials/services'); ?>
+        <?php // get_template_part('partials/quick-contact'); ?>
 
-        <?php get_template_part('partials/about-intro'); ?>
-
-        <?php get_template_part('partials/testimonials'); ?>
-
-        <?php get_template_part('partials/faq'); ?>
-
-        <?php get_template_part('partials/quick-contact'); ?>
+        <div class="wrapper">
         
-        <!--<div class="grid">
-            <div class="grid-span-9">
-            <?php while(have_posts()): the_post(); ?> 
+            <div class="grid">
+                <div class="grid-span-12">
+                <?php while(have_posts()): the_post(); ?> 
 
-                <div <?php post_class(); ?>>
+                    <div <?php post_class(); ?>>
 
-                    <?php /* if(has_post_thumbnail()): ?>
-                    <a href="<?php the_permalink(); ?>">
-                        <div class="thumbnail" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
-                            <?php // the_post_thumbnail(); ?> 
-                        </div>
-                    </a>
-                    <?php endif; */ ?>
+                        <?php if(has_post_thumbnail()): ?>
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="thumbnail" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
+                                <?php the_post_thumbnail(); ?> 
+                            </div>
+                        </a>
+                        <?php endif; ?>
 
-                    <div class="content-area excerpt">
-                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                        <div class="entry">
-                            <?php the_excerpt(); ?>
-                        </div>
-                        <div class="tags">
-                            <?php echo get_the_tag_list('',' ',''); ?>
+                        <div class="content-area excerpt">
+                            <h1><?php the_title(); ?></h1>
+                            <div class="entry">
+                                <?php the_content(); ?>
+                            </div>
                         </div>
                     </div>
+                <?php endwhile; ?> 
                 </div>
-            <?php endwhile; ?> 
+
+                <?php // get_sidebar(); ?>
+
             </div>
+            <!-- / grid -->
 
-            <?php // get_sidebar(); ?>
-
-        </div>-->
-        <!-- / grid -->
+        </div>
+        <!-- / Wrapper -->
 
     </div>
     <!-- / main area -->
