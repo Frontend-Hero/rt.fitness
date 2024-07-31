@@ -1,19 +1,15 @@
-<?php /* Template Name: Contact */
+<?php /* Template Name: Well Done */
 get_header(); ?>
 		
     <div id="main-area" style="position: relative;">
 
-    <div id="google-map"></div>
-
-    <style type="text/css">
-    #google-map {
-        margin: 0 auto 0 auto;
-        border: 1px solid #ccc;
-        width: 100%;
-        height: 1000px;
-        align-self: center;
+    <?php
+    // Check if 'fname' is set in the query string
+    if (isset($_GET['fname'])) {
+        // Sanitize the 'fname' value
+        $fname = sanitize_text_field($_GET['fname']);
     }
-    </style>
+    ?>
 
         <div class="wrapper">
         
@@ -24,7 +20,14 @@ get_header(); ?>
                     <div <?php post_class(); ?>>
 
                         <div class="content-area excerpt">
-                            <h1><?php the_title(); ?></h1>
+                            <h1>
+                                <?php the_title();
+                                if (!empty($fname) && is_string($fname)) {
+                                    echo ', ' . esc_html($fname) . '!';
+                                } 
+                                ?>
+
+                            </h1>
                             <div class="entry">
                                 <?php the_content(); ?>
                             </div>

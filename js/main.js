@@ -61,29 +61,29 @@ function initMap()
 	*/
 	const markers = [
 		{
-			locationName: 'Ole & Steen',
-			lat: 51.50635804760832, 
-			lng: -0.017434353136203003,
-			address: 'CR34 Crossrail Pl,<br> London,<br> E14 5AR'
+			locationName: 'Fit4 The Future',
+			lat: 52.76206685096235, 
+			lng: -2.3629314076679035,
+			address: 'Unit 3 Nova Workshops, <br>Newport, <br>Shropshire, <br>TF10 7BX'
 		}
 	];
 
 	/** 
 	* Create custom marker icon
 	*/
-	const fehMarker = 'https://www.frontendhero.dev/wp-content/uploads/2023/03/feh-marker.png';
+	const fehMarker = 'http://rt-fitness.local/wp-content/uploads/2024/07/rt-location-1.png';
 
 	/** 
 	* Initially center map on London, UK
 	*/
-	const centerMap = { lat: 51.5114675, lng: -0.1266686 }
+	const centerMap = { lat: 52.762042, lng: -2.3671157 }
 
 	/** 
 	* Create map options for our map
 	*/
 	const mapOptions = {
 		center: centerMap,
-		zoom: 12,
+		zoom: 17,
 		disableDefaultUI: true,
 		styles: [
 			{
@@ -225,8 +225,8 @@ function initMap()
 	* Create InfoWindow object 
 	*/
 	const infoWindow = new google.maps.InfoWindow({
-		minWidth: 200,
-		maxWidth: 200
+		minWidth: 250,
+		maxWidth: 250
 	});
 
 	/** 
@@ -247,7 +247,7 @@ function initMap()
 			position: { lat: markers[i]['lat'], lng: markers[i]['lng'] },
 			map: map,
 			icon: fehMarker,
-			// animation: google.maps.Animation.DROP
+			animation: google.maps.Animation.DROP
 		});
 
 		/** 
@@ -270,6 +270,12 @@ function initMap()
 				infoWindow.setContent(infoWindowContent);
 				infoWindow.open(map, marker);
 			}); 
+
+			// Automatically open the InfoWindow after 2 seconds
+            setTimeout(function() {
+                infoWindow.setContent(infoWindowContent);
+                infoWindow.open(map, marker);
+            }, 2000);
 		}
 		createInfoWindows();
 
@@ -277,7 +283,7 @@ function initMap()
 		* Recenter map when an info window is closed
 		*/
 		infoWindow.addListener('closeclick', function() {
-			map.fitBounds(bounds);
+			// map.fitBounds(bounds);
 		});
 
 		/** 
@@ -285,6 +291,9 @@ function initMap()
 		*/
 		// bounds.extend(new google.maps.LatLng(markers[i]['lat'], markers[i]['lng']));		
 		// map.fitBounds(bounds); 
+
+	
+
    }	
 
 }

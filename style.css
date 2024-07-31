@@ -179,6 +179,7 @@
 		grid-gap: 15px;
 	}
 		.grid-span-12 { grid-column: span 12; }
+		.grid-span-10 { grid-column: span 10; }
 		.grid-span-9 { grid-column: span 9; }
 		.grid-span-8 { grid-column: span 8; }
 		.grid-span-6 { grid-column: span 6; }
@@ -1486,6 +1487,49 @@
 
 
 	/*****************************************************************
+		Page: Contact
+	******************************************************************/
+
+	body.page-id-17 h1 {
+		display: none;
+	}
+		body.page-id-17 .rt-quick-contact {
+			padding-bottom: 2.5rem;
+		}
+		body.page-id-17 h2 {
+			margin: 20px 0 0 0;
+		}
+		body.page-id-17 .grid-cf {
+			top: -850px;
+			position: absolute;
+			width: 55%;
+			background: #fff;
+			gap: 0;
+		}
+
+	body.page-id-17 #header-hero {
+		margin-bottom: 0;
+	}
+	body.page-id-17 #footer-primary {
+		margin: 0;
+	}
+
+	.feh-content {
+		margin-top: -1rem;
+	}
+		.feh-content h3 {
+			font-size: 2rem;
+			margin-bottom: 0rem;
+		}
+		.feh-content p {
+			font-size: 1.7rem;
+			margin-bottom: 0rem;
+			line-height: 2.4rem;
+			margin-top: -0.5rem;
+		}
+
+
+	/*****************************************************************
 		Footer
 	******************************************************************/
 
@@ -1513,6 +1557,7 @@
 		#footer-primary p {
 			font-size: 1.7rem;
 			margin-bottom: 0.5rem;
+			line-height: 2.4rem;
 		}
 		#footer-primary .grid-span-3 {
 			justify-self: right;
@@ -1559,8 +1604,7 @@
 
 	@media only screen and (max-width: 900px) {
 
-		#contact-menu,
-		#footer-primary {
+		#contact-menu {
 			display: none;
 		}
 
@@ -1629,6 +1673,7 @@
 		}
 		.rt-about-intro .grid {
 			grid-template-columns: 1fr;
+			gap: 0;
 		}
 
 		.personal-training-services .grid-span-4 {
@@ -1680,7 +1725,26 @@
 			padding: 4.5rem 0;
 		}
 
-
+		#footer-primary .grid {
+			row-gap: 10px;
+		}
+		#footer-primary p {
+			margin-bottom: 0.5rem;
+			line-height: 2.4rem;
+		}
+		.grid-span-nah {
+			grid-column: span 2;
+		}
+		.grid-span-6 {
+			grid-column: span 10;
+		}
+		#footer-primary .grid-span-3 {
+			justify-self: auto;
+			grid-column: 3 / 10;
+		}
+		#footer-primary .grid-span-8 {
+			grid-column: span 10;
+		}
 
 	}
 
@@ -1733,8 +1797,8 @@
 		.testimonial-wrapper.author-keith .testimonial::before { bottom: 135px; }
 		.testimonial-wrapper.author-keith .testimonial-author { bottom: 141px; }
 
-		.testimonial-wrapper.author-no-name .testimonial::before { bottom: 233px; }
-		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 237px; }
+		.testimonial-wrapper.author-no-name .testimonial::before { bottom: 203px; }
+		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 208px; }
 
 		.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 32px; }
 
@@ -1755,7 +1819,8 @@
 		.testimonial-wrapper.author-keith .testimonial::before { bottom: 165px; }
 		.testimonial-wrapper.author-keith .testimonial-author { bottom: 167px; }
 
-		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 232px; }
+		.testimonial-wrapper.author-no-name .testimonial::before { bottom: 233px; }
+		.testimonial-wrapper.author-no-name .testimonial-author { bottom: 238px; }
 
 		.testimonial-wrapper.author-no-name-2 .testimonial-author { bottom: 32px; }
 
