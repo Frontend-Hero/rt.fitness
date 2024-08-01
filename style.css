@@ -45,7 +45,7 @@
 		transform: rotate(-1deg);
 		display: inline-block;
 	}
-	.rt-text-highlight:hover {
+	.shake-what-yo-momma-gave-ya {
 		animation: tilt-shaking 0.28s linear;
 	}
 
@@ -93,74 +93,6 @@
 	.wp-block-image {
 		margin-bottom: 3.5rem;
 	}
-
-
-	/*****************************************************************
-		Page: Contact
-	******************************************************************/
-	/* 
-	.contact-text {
-	}
-
-	.contact-profile {
-		padding-top: 35px;
-	}
-		.contact-profile p {
-			text-align: center;
-			margin: 15px 0 0 0;
-		}
-
-	body.page-id-376 .entry > .wp-block-group:first-child {
-		display: flex;
-		gap: 60px;
-	}
-
-	.menu-grey {
-		background: var(--nal-grey-lighter);
-		padding: 15px 0;
-		border-radius: 40px;
-		margin-top: 25px;
-	}
-	.menu-social-media {
-		display: flex;
-		width: 80%;
-		margin: 0 !important;
-		justify-content: space-evenly !important;
-		justify-content: center;
-	}
-		.menu-social-media li {
-			padding: 0 !important;
-			margin: 0 !important;
-		}
-		.menu-social-media li:before,
-		.menu-social-media li:after {
-			content: none !important;
-		}
-		.menu-social-media a {
-			width: 30px;
-			height: 30px;
-			display: block;
-		}
-		.menu-social-media span {
-			display: none;
-		}
-		.menu-social-media a:before {
-			content: "";
-			width: 30px;
-			height: 30px;
-			display: block;
-		}
-		li.medium-link a:before {
-			background: url("images/icon-social-medium-dark.svg") 0 4px / 90% no-repeat;
-		}
-		li.youtube-link a::before {
-			background: url("images/icon-social-youtube-dark.svg") 0 3px / 90% no-repeat;
-		}
-		li.flickr-link a::before {
-			background: url("images/icon-social-flickr-dark.svg") 0 0px / 90% no-repeat;
-			height: 30px !important;
-		}
-	*/
 
 
 	/*****************************************************************
@@ -290,26 +222,6 @@
 		opacity: 1;
 		visibility: visible
 	}
-
-	/* ul {
-		
-	}
-		#main-area ul li {
-			font-weight: normal;
-			position: relative;
-			padding-left: 35px;
-		}
-		#main-area ul li::before {
-			background: #000;
-			position: absolute;
-			content: "";
-			width: 7px;
-			height: 7px;
-			top: 9px;
-			left: 15px;
-			border-radius: 100px;
-		}
-	*/
 
 
 	/*****************************************************************
@@ -1699,13 +1611,53 @@
 
 	@media only screen and (max-width: 800px) {
 
-		.personal-training-faq .grid {
-			gap: 0;
+		.grid:not(footer .grid) {
+			gap: 0 !important;
+		}
+		
+		#nav-primary.active,
+		#nav-primary.active * {
+			z-index: 1000 !important
+		}
+		
+		.rt-facts li {
+			grid-column: span 6;
+		}
+		.rt-facts li:nth-child(2) {
+			border-right: 0px none;
+		}
+		.rt-facts li:nth-child(4) {
+			border-bottom: 5px solid #fff;
+			border-right: 0px none;
+		}
+		.rt-facts li:nth-child(3) {
+			border-right: 5px solid #fff;
+		}
+		
+		body.nav-is-open { 
+			overflow: hidden;
+		}
+		body.nav-is-open #header-hero {
+			height: 90vh;
+			overflow: hidden;
+		}
+		
+		body.page-template-contact .grid-cf > div {
+			grid-column: span 12 !important
 		}
 
 		.personal-training-services {
 			gap: 0;
 		}
+		.rt-quick-contact #input_1_1_6_container,
+		.rt-quick-contact #input_1_1_3_container {
+			padding: 0px 5px 0px 5px !important
+		}
+		
+		#sidebar {
+			margin: 5rem 0;
+		}
+		
 			.personal-training-services a {
 				display: flex;
 				flex-direction: column;
@@ -1740,6 +1692,13 @@
 			grid-template-columns: 1fr;
 			gap: 0;
 		}
+		
+		.wp-block-list.rt-list {
+			gap: 0;
+		}
+			.wp-block-list.rt-list li {
+				grid-column: span 12 !important;
+			}
 
 		.personal-training-services .grid-span-4 {
 			grid-column: span 12;
@@ -1875,6 +1834,10 @@
 
 	@media only screen and (max-width: 550px) {
 
+		.has-text-align-left.pull-quote {
+			display: none;
+		}
+		
 		#header-hero .content-area {
 			width: 92%;
 		}
@@ -1892,5 +1855,19 @@
 		.testimonial-wrapper.author-kayleigh .testimonial::before { bottom: 89px; }
 		.testimonial-wrapper.author-kayleigh .testimonial-author { bottom: 92px; }
 
+		.rt-facts ul {
+			background: #efefef;
+		}
+		.rt-facts li {
+			grid-column: span 12;
+		}
+		.rt-facts li:nth-child(5) {
+			border-bottom: 5px solid #fff;
+		}
+		.rt-facts li {
+			border-right: 0px none !important;
+			border-left: 0px none !important;
+		}
+		
 	}
 
